@@ -3,3 +3,18 @@
 
 # default values
 #all:
+all:
+  .plugins:
+      plugins_content_relations:
+        0:
+          className: mdDynamicContent
+          typeName: locales
+          profileId: 1
+          profileName: locales
+          relations: null
+        1:
+          className: mdDynamicContent
+          typeName: puntoVenta
+          profileId: 2
+          profileName: puntoVenta
+          relations: null          

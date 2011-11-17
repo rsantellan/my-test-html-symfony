@@ -1,0 +1,11 @@
+## YAML Template.
+mdProfile:
+  locales:
+    name: locales
+    object_class_name: mdDynamicContent
+  puntoVenta:
+    name: puntoVenta
+    object_class_name: mdDynamicContent	
+  productos:
+    name: productos
+    object_class_name: mdProduct

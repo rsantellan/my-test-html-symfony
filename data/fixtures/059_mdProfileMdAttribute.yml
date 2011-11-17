@@ -1,0 +1,41 @@
+mdProfileAttribute:
+###########productos###################
+  mdPAt0:
+    mdAttribute: descripcion
+    mdProfile: productos
+    
+  mdPAt1:
+    mdAttribute: codigo
+    mdProfile: productos
+
+  mdPAt2:
+    mdAttribute: color
+    mdProfile: productos
+
+  mdPAt3:
+    mdAttribute: dimension
+    mdProfile: productos
+
+  mdPAt5:
+    mdAttribute: maxwatt
+    mdProfile: productos
+
+  mdPAt6:
+    mdAttribute: lampara
+    mdProfile: productos
+
+  mdPAt7:
+    mdAttribute: voltage
+    mdProfile: productos
+
+  mdPAt8:
+    mdAttribute: articulo
+    mdProfile: productos
+
+  mdPAt9:
+    mdAttribute: precioAnterior
+    mdProfile: productos
+
+  mdPAt10:
+    mdAttribute: nombreTecnico
+    mdProfile: productos

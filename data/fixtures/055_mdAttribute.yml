@@ -1,0 +1,83 @@
+mdAttribute:
+  descripcion:
+    name: descripcion
+    type_class: mdAttributeWidgetTinyEditorTextArea
+    requiered: 1
+    translated: 1
+    Translation:
+      es:
+        label: 'Descripcion'
+        
+  codigo:
+    name: codigo
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 0
+    Translation:
+      es:
+        label: 'Código'
+
+  color:
+    name: color
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    Translation:
+      es:
+        label: Color
+        
+  dimension:
+    name: dimension
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    Translation:
+      es:
+        label: Dimensión
+
+  maxwatt:
+    name: maxwatt
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    Translation:
+      es:
+        label: 'Max Watt'
+
+  lampara:
+    name: lampara
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    Translation:
+      es:
+        label: 'Tipo de Lampara'
+
+  voltage:
+    name: voltage
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    Translation:
+      es:
+        label: Voltage
+
+  articulo:
+    name: articulo
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    Translation:
+      es:
+        label: Articulo
+        
+  precioAnterior:
+    name: precioAnterior
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    Translation:
+      es:
+        label: 'Precio anterior'
+
+  nombreTecnico:
+    name: nombreTecnico
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 1
+    Translation:
+      es:
+        label: 'Nombre Tecnico'

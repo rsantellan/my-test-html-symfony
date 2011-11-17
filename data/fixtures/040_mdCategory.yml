@@ -1,0 +1,9 @@
+mdCategory:
+  mdCategory_1:
+    id: 1
+    object_class_name: mdProduct
+    label: quesos
+    Translation:
+      es:
+        name: 'Quesos'
+

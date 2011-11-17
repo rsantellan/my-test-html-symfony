@@ -1,6 +1,6 @@
 all:
   .tiny:
-    #jfilebrowser_path: "/tiny"
+    jfilebrowser_path: "/tiny"
 
   .plugins:
 ########Usuarios########
@@ -39,17 +39,17 @@ all:
 
 #########Dynamic Content########
 # Activar la media para los dynamic content
-    plugins_dynamic_media: false
+    plugins_dynamic_media: true
 # Activar las categorias para los dynamic content
     plugins_dynamic_category: false
 # Activar las opciones de fecha para los dynamic content
     plugins_dynamic_show_publish_at: false
 # Activar manejo de tipos de dynamicContent por separado
-    plugins_dynamic_manage: false
+    plugins_dynamic_manage: true
 # Activar el manejo de prioridades
-    plugins_dynamic_priority: false
+    plugins_dynamic_priority: true
 # Activar si los dynamic van a tener el campo visible
-    plugins_dynamic_show_is_visible: false
+    plugins_dynamic_show_is_visible: true
 # Activar la utilizacion de los colores en los closed box del backend
     plugins_dynamic_change_box_colors: false
 # Activar interaccion con Google Map - Depende de mdGoogleMapDoctrinePlugin
@@ -71,16 +71,16 @@ all:
     plugins_relation_content_manage: false
 
 ###########Shopping##########
-    plugins_shopping_attribute: false
+    plugins_shopping_attribute: true
     plugins_shopping_feature: false
-    plugins_shopping_media: false
-    plugins_shopping_category: false
+    plugins_shopping_media: true
+    plugins_shopping_category: true
     plugins_mdBackendSalesFile_xml_edit: false
-    plugins_shopping_sortable: false
+    plugins_shopping_sortable: true
 # Activa si mostrar o no el campo tax. 
     plugins_shopping_show_tax: false    
 # Activa los mdShoppingProviders en la venta del frontend
-    plugins_shopping_providers: true
+    plugins_shopping_providers: false
 # Selecciona el default country provider
 #    plugins_shopping_providers_default: 'US'
     
@@ -157,7 +157,7 @@ all:
     plugins_media_rating: false
     # Permite habilitar manejo de videos embebidos por tipo de contenido
     # ejemplo: plugins_$OBJECTCLASS_video_embebed_available
-    plugins_mdDynamicContent_video_embebed_available: true
+    plugins_mdDynamicContent_video_embebed_available: false
     # Permite especificar los tipos de videos embebidos soportados: vimeo, youtube, issuu
     plugins_media_videos_embebed_types: [vimeo, youtube, issuu]
     

@@ -1,0 +1,8 @@
+mdUnit:
+  mdUnit_u:
+    Translation:
+      en:
+        name: Unit
+      es:
+        name: Unidad
+    symbol: 'u'
