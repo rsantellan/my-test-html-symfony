@@ -8,76 +8,182 @@ mdAttribute:
       es:
         label: 'Descripcion'
         
-  codigo:
-    name: codigo
-    type_class: mdAttributeWidgetTextInput
+  premios:
+    name: premios
+    type_class: mdAttributeWidgetTinyEditorTextArea
     requiered: 0
-    translated: 0
+    translated: 1
     Translation:
       es:
-        label: 'Código'
+        label: 'Premios'
 
-  color:
-    name: color
-    type_class: mdAttributeWidgetTextInput
+  presentaciones:
+    name: presentaciones
+    type_class: mdAttributeWidgetTinyEditorTextArea
     requiered: 0
+    translated: 1
     Translation:
       es:
-        label: Color
-        
-  dimension:
-    name: dimension
-    type_class: mdAttributeWidgetTextInput
-    requiered: 0
-    Translation:
-      es:
-        label: Dimensión
-
-  maxwatt:
-    name: maxwatt
-    type_class: mdAttributeWidgetTextInput
-    requiered: 0
-    Translation:
-      es:
-        label: 'Max Watt'
-
-  lampara:
-    name: lampara
-    type_class: mdAttributeWidgetTextInput
-    requiered: 0
-    Translation:
-      es:
-        label: 'Tipo de Lampara'
-
-  voltage:
-    name: voltage
-    type_class: mdAttributeWidgetTextInput
-    requiered: 0
-    Translation:
-      es:
-        label: Voltage
-
-  articulo:
-    name: articulo
-    type_class: mdAttributeWidgetTextInput
-    requiered: 0
-    Translation:
-      es:
-        label: Articulo
-        
-  precioAnterior:
-    name: precioAnterior
-    type_class: mdAttributeWidgetTextInput
-    requiered: 0
-    Translation:
-      es:
-        label: 'Precio anterior'
-
-  nombreTecnico:
-    name: nombreTecnico
+        label: Presentaciones
+    
+  consistencia:
+    name: consistencia
     type_class: mdAttributeWidgetTextInput
     requiered: 0
     translated: 1
     Translation:
       es:
-        label: 'Nombre Tecnico'
+        label: Consistencia
+
+  textura:
+    name: textura
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 1
+    Translation:
+      es:
+        label: Textura
+
+  ojos:
+    name: ojos
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 1
+    Translation:
+      es:
+        label: Ojos
+
+  color:
+    name: color
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 1
+    Translation:
+      es:
+        label: Color
+
+  sabor:
+    name: sabor
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 1    
+    Translation:
+      es:
+        label: Sabor
+            
+  humedad:
+    name: humedad
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 1 
+    Translation:
+      es:
+        label: Humedad
+
+  materiaGrasa:
+    name: materiaGrasa
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 1
+    Translation:
+      es:
+        label: 'Materia Grasa'
+
+  clasificacion:
+    name: clasificacion
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 1
+    Translation:
+      es:
+        label: 'Clasificación'        
+
+  coliformes35:
+    name: coliformes35
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 1
+    Translation:
+      es:
+        label: 'Coliformes a 35ºC'
+
+  coliformes45:
+    name: coliformes45
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 1
+    Translation:
+      es:
+        label: 'Coliformes a 45ºC'
+
+  staphillococus:
+    name: staphillococus
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 1
+    Translation:
+      es:
+        label: 'Staphillococus coag +'
+
+  salmonella:
+    name: salmonella
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 1
+    Translation:
+      es:
+        label: 'Salmonella spp'
+
+  listerya:
+    name: listerya
+    type_class: mdAttributeWidgetTextInput
+    requiered: 0
+    translated: 1
+    Translation:
+      es:
+        label: 'Listerya Monocytogenes'
+        
+  nombre:
+    name: nombre
+    type_class: mdAttributeWidgetTextInput
+    requiered: 1
+    translated: 1
+    Translation:
+      es:
+        label: Nombre
+
+  telefono:
+    name: telefono
+    type_class: mdAttributeWidgetTinyEditorTextArea
+    requiered: 1
+    translated: 1
+    Translation:
+      es:
+        label: Telefono
+  
+  direccion:
+    name: direccion
+    type_class: mdAttributeWidgetTinyEditorTextArea
+    requiered: 1
+    translated: 1
+    Translation:
+      es:
+        label: Direccion
+
+  horario:
+    name: horario
+    type_class: mdAttributeWidgetTinyEditorTextArea
+    requiered: 1
+    translated: 1
+    Translation:
+      es:
+        label: Horario        
+
+  DescripcionLocal:
+    name: descripcionLocal
+    type_class: mdAttributeWidgetTinyEditorTextArea
+    requiered: 1
+    translated: 1
+    Translation:
+      es:
+        label: Descripcion       
