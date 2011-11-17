@@ -1,0 +1,9 @@
+mdCurrency:
+  mdCurrency_dolares:
+    Translation:
+      en:
+        name: Pesos
+      es:
+        name: Pesos
+    symbol: '$'
+    code: UYU
