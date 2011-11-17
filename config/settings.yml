@@ -78,7 +78,7 @@ all:
     plugins_mdBackendSalesFile_xml_edit: false
     plugins_shopping_sortable: true
 # Activa si mostrar o no el campo tax. 
-    plugins_shopping_show_tax: false    
+    plugins_shopping_show_tax: true    
 # Activa los mdShoppingProviders en la venta del frontend
     plugins_shopping_providers: false
 # Selecciona el default country provider

@@ -5,37 +5,85 @@ mdProfileAttribute:
     mdProfile: productos
     
   mdPAt1:
-    mdAttribute: codigo
+    mdAttribute: premios
     mdProfile: productos
 
   mdPAt2:
-    mdAttribute: color
+    mdAttribute: presentaciones
     mdProfile: productos
 
   mdPAt3:
-    mdAttribute: dimension
+    mdAttribute: consistencia
     mdProfile: productos
 
+  mdPAt4:
+    mdAttribute: textura
+    mdProfile: productos    
+
   mdPAt5:
-    mdAttribute: maxwatt
+    mdAttribute: ojos
     mdProfile: productos
 
   mdPAt6:
-    mdAttribute: lampara
+    mdAttribute: color
     mdProfile: productos
 
   mdPAt7:
-    mdAttribute: voltage
+    mdAttribute: sabor
     mdProfile: productos
 
   mdPAt8:
-    mdAttribute: articulo
+    mdAttribute: humedad
     mdProfile: productos
 
   mdPAt9:
-    mdAttribute: precioAnterior
+    mdAttribute: materiaGrasa
     mdProfile: productos
 
   mdPAt10:
-    mdAttribute: nombreTecnico
+    mdAttribute: clasificacion
     mdProfile: productos
+
+  mdPAt11:
+    mdAttribute: nombre
+    mdProfile: locales    
+    
+  mdPAt12:
+    mdAttribute: telefono
+    mdProfile: locales     
+    
+  mdPAt13:
+    mdAttribute: direccion
+    mdProfile: locales   
+    
+  mdPAt14:
+    mdAttribute: horario
+    mdProfile: locales    
+    
+  mdPAt15:
+    mdAttribute: DescripcionLocal
+    mdProfile: locales    
+    
+  mdPAt16:
+    mdAttribute: nombre
+    mdProfile: puntoVenta     
+    
+  mdPAt17:
+    mdAttribute: coliformes35
+    mdProfile: productos    
+    
+  mdPAt18:
+    mdAttribute: coliformes45
+    mdProfile: productos 
+    
+  mdPAt19:
+    mdAttribute: staphillococus
+    mdProfile: productos   
+    
+  mdPAt20:
+    mdAttribute: salmonella
+    mdProfile: productos  
+    
+  mdPAt21:
+    mdAttribute: listerya
+    mdProfile: productos    
