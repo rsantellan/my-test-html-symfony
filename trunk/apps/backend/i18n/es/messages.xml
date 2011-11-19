@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-19T17:29:47Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Layout_Tiene textos sin publicar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Layout_Publicando...</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Layout_Los textos se han publicado</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Layout_publicar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>backendLayout_Poll</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
