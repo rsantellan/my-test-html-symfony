@@ -6,6 +6,7 @@
     <?php include_metas() ?>
     <?php include_title() ?>
     <link rel="shortcut icon" href="/favicon.ico" />
+    <?php if($sf_user->isAuthenticated ()):?>
     <?php
         use_plugin_stylesheet('mastodontePlugin', 'backend.css');
         use_plugin_javascript('mastodontePlugin', 'jquery-ui-1.8.4/js/jquery-1.4.2.min.js', 'first');
@@ -15,10 +16,12 @@
         use_plugin_stylesheet('mastodontePlugin', '../js/fancybox/jquery.fancybox-1.3.1.css');
         use_plugin_javascript('mastodontePlugin','fancybox/jquery.fancybox-1.3.1.pack.js','last');
     ?>
+    <?php endif; ?>
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
   </head>
   <body>
+	  <?php if($sf_user->isAuthenticated ()):?>
      <div id="message_text" class="message_text">
           <span id="text_to_publish"><?php echo __('Layout_Tiene textos sin publicar') ?></span>
           <span id="text_publishing" style="display:none;"><?php echo __('Layout_Publicando...') ?></span>
@@ -30,14 +33,11 @@
         	<div class="md_logo">
             	<?php echo image_tag ( 'logo.jpg' )?>
             </div>
-        <?php if($sf_user->isAuthenticated ()):?>
             <div class="md_login">
             	<a href="#"  class="md_current"><?php echo $sf_user->getUsername()?><?php if($sf_user->isSuperAdmin()) echo '(Super Admin)'?></a> | <?php echo $sf_user->getCulture()?> | <a href="<?php echo url_for('mdAuth/logout')?>">salir</a>
             </div>
-        <?php endif; ?>
         </div><!--HEADER-->
         <div id="md_menu">
-        <?php if($sf_user->isAuthenticated ()):?>
         	<ul class="menu_list">
             	<li><a href="#">Escritorio</a></li>
 <?php if(sfContext::getInstance()->getRouting()->hasRouteName('mdUserManagement')):?>
@@ -93,7 +93,6 @@ if(sfContext::getInstance()->getRouting()->hasRouteName('mdTranslator')):?>
                 <li><a href="<?php echo url_for('@mdAdsManagement')?>" class="<?php if(has_slot('backend_mdAdsManagement')){ echo 'current'; } else { echo ''; } ?>">Ads</a></li>
         <?php endif;?>            
             </ul>
-        <?php endif;?>
         </div><!--MENU-->
         <?php
         if($sf_user->hasFlash('noPermission')):
@@ -102,18 +101,16 @@ if(sfContext::getInstance()->getRouting()->hasRouteName('mdTranslator')):?>
         <?php endif; ?>
         <div class="clear"></div>
         <div id="md_content">
+<?php endif;?>			
             <?php echo $sf_content ?>
+<?php if($sf_user->isAuthenticated ()):?>        
         </div>
-
-<?php if($sf_user->isAuthenticated ()):?>
     </div><!--WRAPPER-->
-<?php endif;?>
-
     <?php include_partial("default/mdLoading"); ?>
     <?php if($sf_user->isAuthenticated ()):?>
         <?php include_partial("default/barra"); ?>
     <?php endif;?>
-
+<?php endif;?>
   </body>
 </html>
 
