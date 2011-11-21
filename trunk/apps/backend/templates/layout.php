@@ -16,11 +16,17 @@
         use_plugin_stylesheet('mastodontePlugin', '../js/fancybox/jquery.fancybox-1.3.1.css');
         use_plugin_javascript('mastodontePlugin','fancybox/jquery.fancybox-1.3.1.pack.js','last');
     ?>
+    
+    <?php else: ?>
+    <?php
+		use_stylesheet('backend_login.css');
+    ?>
     <?php endif; ?>
+    
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
   </head>
-  <body>
+  <body <?php if(!$sf_user->isAuthenticated ()) echo 'class="small login"';?>> 
 	  <?php if($sf_user->isAuthenticated ()):?>
      <div id="message_text" class="message_text">
           <span id="text_to_publish"><?php echo __('Layout_Tiene textos sin publicar') ?></span>
