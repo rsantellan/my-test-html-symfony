@@ -21,18 +21,32 @@
                 <?php echo image_tag("trk-small-opacity-queso.png", array("alt" => "Naturalia", "style" => "display:none")); ?>
                 <?php echo image_tag("borde_pagina copia.jpg", array("alt" => "Naturalia", "class" => "header_background_image",  "style" => "display:block")); ?>
                 <ul>
-                    <li><a href="index.html" class="home">Inicio</a></li>
-                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="<?php echo url_for("@homepage");?>" class="<?php if(has_slot('home')){ echo 'home'; } else { echo ''; } ?>"><?php echo __("menu_inicio"); ?></a></li>
+                    <li><a href="<?php echo url_for("@galeria");?>" class="<?php if(has_slot('galeria')){ echo 'home'; } else { echo ''; } ?>"><?php echo __("menu_galeria"); ?></a></li>
                     <li><a href="quienes_somos.html">Quienes somos</a></li>
-                    <li><a href="<?php echo url_for("@location");?>"><?php echo __("menu_locaciones"); ?></a></li>
+                    <li><a href="<?php echo url_for("@location");?>" class="<?php if(has_slot('locations')){ echo 'home'; } else { echo ''; } ?>"><?php echo __("menu_locaciones"); ?></a></li>
                     <li><a href="noticias.html">Noticias</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="<?php echo url_for("@mdContact");?>" class="<?php if(has_slot('mdContact')){ echo 'home'; } else { echo ''; } ?>"><?php echo __("menu_contacto"); ?></a></li>
                 </ul>
             </div><br class="spacer" />
             <!--header end-->      
             
                 <?php echo $sf_content ?>
-            
+            <!--right start-->
+            <div class="right">
+		<div class="search">
+                    <span class="topCurve"></span>
+                    <form class="searchForm" name="form1" method="post" action="">
+                      <h2><span>Newsletter</span></h2>
+                      <input name="textfield" type="text" value="E-mail" />
+                      <input type="submit" value="inscribirse" class="button" />					
+                      <br class="spacer" />     
+                    </form> 
+                    <span class="bottomCurve"></span>
+                </div>
+            </div>
+            <br class="spacer" />
+            <!--right end -->
             <!--bottom start -->
             <br class="spacer" />
             <!--bottom end -->

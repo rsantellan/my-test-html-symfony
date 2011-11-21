@@ -1,52 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-21T15:49:08Z" product-name="messages">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-21T17:56:38Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
         <source>inicio_bienvenidos</source>
-        <target/>
+        <target>Bienvenidos</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="2">
         <source>menu_locaciones</source>
-        <target/>
+        <target>Locaciones</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="3">
         <source>locales_titulo izquierdo</source>
-        <target/>
+        <target>Loc</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="4">
         <source>locales_titulo derecho</source>
-        <target/>
+        <target>ales</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="5">
         <source>locales_sub titulo</source>
-        <target/>
+        <target>&lt;strong&gt;Nuestros locales,&lt;/strong&gt; estan en:</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="6">
         <source>locales_ver galeria</source>
-        <target/>
+        <target>Ver galería:</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="7">
         <source>locales_Datos:</source>
-        <target/>
+        <target>Datos:</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="8">
         <source>locales_Direccion:</source>
-        <target/>
+        <target>Dirección:</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="9">
         <source>locales_Telefono:</source>
-        <target/>
+        <target>Teléfono:</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="10">
         <source>locales_Horario:</source>
-        <target/>
+        <target>Horario:</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="11">
         <source>locales_Descripcion:</source>
-        <target/>
+        <target>Descripción:</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>menu_contacto</source>
+        <target>Contacto</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>contacto_nombre</source>
+        <target>Nombre</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>contacto_email</source>
+        <target>E-Mail</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>contacto_telefono</source>
+        <target>Teléfono </target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>contacto_comentario</source>
+        <target>Comentario</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>contacto_enviar</source>
+        <target>Enviar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>contacto_titulo izquierdo</source>
+        <target>CONT</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>contacto_titulo derecho</source>
+        <target>ACTO</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>menu_inicio</source>
+        <target>Inicio</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>menu_galeria</source>
+        <target>Galería </target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>galeria_titulo izquierdo</source>
+        <target>GALE</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>galeria_titulo derecho</source>
+        <target>RIA</target>
+        <note>es</note>
       </trans-unit>
     </body>
   </file>

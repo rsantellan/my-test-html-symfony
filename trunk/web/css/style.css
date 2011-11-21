@@ -510,6 +510,8 @@ div.premio_container{
 	background-color:#FFFECE; color:#BB4D00;
 }
 
+
+/** Contacto **/
 .contacto {
 	text-align: center;
 	margin-top: 10px;
@@ -521,6 +523,11 @@ div.premio_container{
 	text-align: center;
 	}
 
+.contacto label.error{
+	font:bold 13px/15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FF8282; 
+	text-align: center;
+	}
 .contacto input{
 	margin-top: 5px;
 }

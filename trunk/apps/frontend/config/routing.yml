@@ -1,8 +1,12 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
+galeria:
+  url:   /galeria.html
+  param: { module: default, action: galeria }
+
 location:
-  url:   /locales
+  url:   /locales.html
   param: { module: default, action: location }
 
 # default rules
@@ -12,9 +16,9 @@ homepage:
 
 # generic rules
 # please, remove them by adding more specific rules
-default_index:
-  url:   /:module
-  param: { action: index }
-
-default:
-  url:   /:module/:action/*
+#default_index:
+#  url:   /:module
+#  param: { action: index }
+#
+#default:
+#  url:   /:module/:action/*
