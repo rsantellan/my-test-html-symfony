@@ -1,2 +1,2 @@
 <?php
-__("inicio_bienvenidos");
+echo __("inicio_bienvenidos");

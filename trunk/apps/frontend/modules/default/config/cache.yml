@@ -1,0 +1,7 @@
+_localInfo:
+  enabled:     true
+  lifetime:    21600
+
+_localVentaInfo:
+  enabled:     true
+  lifetime:    21600
