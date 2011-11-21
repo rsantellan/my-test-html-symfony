@@ -1,6 +1,6 @@
 all:
-  .tiny:
-    jfilebrowser_path: "/tiny"
+#  .tiny:
+#    jfilebrowser_path: "/tiny"
 
   .plugins:
 ########Usuarios########
@@ -185,3 +185,6 @@ all:
 ########## mastodontePlugin  #################
     # habilita el servicio de CAPTCHA
     plugins_captcha_available: false
+
+########## tiny con archivos ################
+    plugins_use_file_on_tiny: true

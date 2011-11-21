@@ -13,4 +13,20 @@
 class mdDynamicContent extends PluginmdDynamicContent
 {
 
+    public function __toString()
+    {
+        $string = "";
+        switch($this->getTypeName())
+        {
+            case "locales";
+                $profile = mdProfileHandler::getInstance($this)->loadProfile('locales');
+                $string = $profile->getValue('nombre');
+            break;
+            case "puntoVenta";
+                $profile = mdProfileHandler::getInstance($this)->loadProfile('puntoVenta');
+                $string = $profile->getValue('nombre');
+            break;
+        }
+        return $string;
+    }
 }
