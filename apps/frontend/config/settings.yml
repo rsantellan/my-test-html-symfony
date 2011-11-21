@@ -50,5 +50,5 @@ all:
     secure_action:          secure
 
     #Modules enabled
-    enabled_modules:        [default, mdWebImage]
+    enabled_modules:        [default, mdWebImage, mdContact]
     #enabled_modules:        [default, mdAuth, mdUserManagementFrontend, mdMediaContentAdmin, uploader, mdWebImage, mdInvite, oneWidgetForms, openInviter, mdUserConfirmation, mdUserFriendshipFrontend, mdNotesFrontend, mdSocialGroup, mdMediaContentFrontend, mdContact, comment, mdAds, iLikeIt]

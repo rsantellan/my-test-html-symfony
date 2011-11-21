@@ -23,6 +23,11 @@ class defaultActions extends sfActions
         $this->puntosVenta = mdDynamicContentHandler::retrieveAllMdDynamicContentOfType("puntoVenta", true);
     }
     
+    public function executeGaleria(sfWebRequest $request)
+    {
+        
+    }
+    
     public function executeError404(sfWebRequest $request)
     {
         
