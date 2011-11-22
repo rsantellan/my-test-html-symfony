@@ -7,28 +7,27 @@
 
 
 <div class="image_gallery_container">
-
+<?php if(count($images) > 0): ?>
     <div id="slider">
-        <ul>				
+        <ul>
+            <?php foreach($images as $image): ?>
             <li>
                 <a href="javascript:void(0)">
-                    <img src="images/imagenes_quesos/057-crop-scale.jpg" alt="Queso" width="741" height="370" />
+                    
+                    <img src="<?php echo mdWebImage::getUrl($image, array(mdWebOptions::WIDTH => 741, mdWebOptions::HEIGHT => 370,  mdWebOptions::CODE => mdWebCodes::RESIZECROP))?>" alt="Naturalia" width="741" height="370" />
                 </a>
             </li>
-            <li><a href="javascript:void(0)"><img src="images/imagenes_quesos/baracas-de-queso-crop-scale.jpg" alt="Queso" width="741" height="370" /></a></li>
-            <li><a href="javascript:void(0)"><img src="images/imagenes_quesos/QUESO-MAASDAMMER-crop-scale.jpg" alt="Queso" width="741" height="370" /></a></li>
-            <li><a href="javascript:void(0)"><img src="images/imagenes_quesos/quesos_embutidos_jamon-crop-scale.jpg" alt="Queso" width="741" height="370" /></a></li>
-            <li><a href="javascript:void(0)"><img src="images/imagenes_quesos/queso-y-vino-feria-2010-crop-scale.jpg" alt="Queso" width="741" height="370" /></a></li>
-            <li><a href="javascript:void(0)"><img src="images/imagenes_quesos/tabla-queso-crop-scale.jpg" alt="Queso" width="741" height="370" /></a></li>            
+            <?php endforeach;?>
         </ul>
     </div>
+<?php endif; ?>    
 </div>
 
 <!--left start-->
 <div class="left">
         <h2><span class="black"><?php echo __("galeria_titulo izquierdo");?></span><span class="brown"><?php echo __("galeria_titulo derecho");?></span></h2>
 	<p class="darkgrey">
-		Las imagenes bla bla bla magna porta dolor, accumsan fringilla augue velit non augue.
+            <?php echo __("galeria_texto");?>
 	</p>
 </div>
 <!--left end-->

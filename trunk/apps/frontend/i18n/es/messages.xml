@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-21T17:56:38Z" product-name="messages">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-22T16:25:30Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
         <source>inicio_bienvenidos</source>
-        <target>Bienvenidos</target>
+        <target>&lt;strong&gt;Naturalia,&lt;/strong&gt; consectetuer adipiscing elit. Nunc tincidu,  eros vitae ncdut tempus, odio                     Maecenas convallis, enim sed volutpat volutpat,  libero risus porttitor risus, id aliquam justo sapien a libero.                      Praesent interdum augue sed nisl lacinia ut  ullamcorper elit blandit. Fusce felis lectus, mattis vel elementum  vitae,                      vestibulum vel lectus. Sed urna nunc, tempus vitae  lacinia in, mollis non risus. In velit urna, mattis a consectetur ut,                      tincidunt ut lectus. Sed non magna libero. Mauris  ullamcorper tempus mi, ut ultricies erat tincidunt id.                      Integer ut lorem at lacus cursus tempus ac id nibh.  Suspendisse nulla elit, mollis vitae blandit nec, eleifend ut felis.                      Mauris risus ante, tempor sagittis consequat  vestibulum, lacinia nec lectus. Donec eu lectus pharetra leo accumsan  congue.                      Mauris elit ligula, pharetra ac elementum in,  viverra a urna. Praesent malesuada, nulla eget venenatis cursus, eros                      magna porta dolor, accumsan fringilla augue velit  non augue.</target>
         <note>es</note>
       </trans-unit>
       <trans-unit id="2">
@@ -118,6 +118,147 @@
         <source>galeria_titulo derecho</source>
         <target>RIA</target>
         <note>es</note>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>inicio_titulo izquierdo</source>
+        <target>NATU</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>inicio_titulo derecho</source>
+        <target>RALIA</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>galeria_texto</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>menu_Quienes somos</source>
+        <target>Quienes somos.</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>quienesSomos_titulo izquierdo</source>
+        <target>NATU</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>quienesSomos_titulo derecho</source>
+        <target>RALIA</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>quienesSomos_texto</source>
+        <target>&lt;strong&gt;Naturalia,&lt;/strong&gt; consectetuer adipiscing elit. Nunc tincidu,  eros vitae ncdut tempus, odio                     Maecenas convallis, enim sed volutpat volutpat,  libero risus porttitor risus, id aliquam justo sapien a libero.                      Praesent interdum augue sed nisl lacinia ut  ullamcorper elit blandit. Fusce felis lectus, mattis vel elementum  vitae,                      vestibulum vel lectus. Sed urna nunc, tempus vitae  lacinia in, mollis non risus. In velit urna, mattis a consectetur ut,                      tincidunt ut lectus. Sed non magna libero. Mauris  ullamcorper tempus mi, ut ultricies erat tincidunt id.                      Integer ut lorem at lacus cursus tempus ac id nibh.  Suspendisse nulla elit, mollis vitae blandit nec, eleifend ut felis.                      Mauris risus ante, tempor sagittis consequat  vestibulum, lacinia nec lectus. Donec eu lectus pharetra leo accumsan  congue.                      Mauris elit ligula, pharetra ac elementum in,  viverra a urna. Praesent malesuada, nulla eget venenatis cursus, eros                      magna porta dolor, accumsan fringilla augue velit  non augue.</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Meta_Titulo Inicio</source>
+        <target>Naturalia</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>Meta_Desripcion Inicio</source>
+        <target>Bienvenidos a Naturalia</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Meta_Keywords Inicio</source>
+        <target>Quesos, Uruguay, Venta, Colonia, Emhental, fondue, montevideo</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Meta_Titulo Global</source>
+        <target>Naturalia</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>Meta_Desripcion Global</source>
+        <target>Bienvenidos a Naturalia.</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>Meta_Keywords Global</source>
+        <target>Quesos, Uruguay, Venta, Colonia, Emhental, fondue, montevideo</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>Meta_Titulo locacion</source>
+        <target>Naturalia - Donde estamos</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Meta_Desripcion locacion</source>
+        <target>Nuestros locales</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Meta_Keywords locacion</source>
+        <target>Quesos, Uruguay, Venta, Colonia, Emhental, fondue, montevideo, locales, telefono, direccion, horario</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Meta_Titulo galeria</source>
+        <target>Naturalia - Galeria de imagenes</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>Meta_Desripcion galeria</source>
+        <target>Galeria de imagenes.</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>Meta_Keywords galeria</source>
+        <target>Quesos, Uruguay, Venta, Colonia, Emhental, fondue, montevideo, imagenes, galeria, fotos</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>Meta_Titulo quienesSomos</source>
+        <target>Naturalia - Quienes somos.</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>Meta_Desripcion quienesSomos</source>
+        <target>La historia de naturalia</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>Meta_Keywords quienesSomos</source>
+        <target>Quesos, Uruguay, Venta, Colonia, Emhental, fondue, montevideo, quienes somos, historia, comienzos</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>Meta_Titulo contacto</source>
+        <target>Naturalia - Contacto</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>Meta_Desripcion contacto</source>
+        <target>Contactese con Naturalia</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>Meta_Keywords contacto</source>
+        <target>Quesos, Uruguay, Venta, Colonia, Emhental, fondue, montevideo, contacto</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>menu_productos</source>
+        <target>Productos</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>productos_titulo izquierdo</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>productos_titulo derecho</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>productos_bienvenidos</source>
+        <target/>
       </trans-unit>
     </body>
   </file>
