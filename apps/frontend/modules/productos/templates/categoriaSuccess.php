@@ -12,12 +12,13 @@
     <?php include_component("productos", "categoriasMenu"); ?>
     
     <br class="spacer" />
+    <ul class="product_list">
     <?php foreach($listadoProductos as $producto): ?>
-    
-        <?php echo $producto; ?>
+        <?php include_partial("productoSmallInfo", array("producto" => $producto)); ?>
+        
     
     <?php endforeach; ?>
-    
+    </ul>
 </div>
 <!--left end-->
 
