@@ -14,7 +14,7 @@
     <br class="spacer" />
     <ul class="product_list">
     <?php foreach($listadoProductos as $producto): ?>
-        <?php include_partial("productoSmallInfo", array("producto" => $producto)); ?>
+        <?php include_partial("productoSmallInfo", array("producto" => $producto, "slug" => $category->getSlug(), 'sf_cache_key' => $producto->getId())); ?>
         
     
     <?php endforeach; ?>

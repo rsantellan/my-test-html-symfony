@@ -10,6 +10,13 @@
  */
 class productosActions extends sfActions
 {
+  
+  
+  public function postExecute()
+  {
+      mdMetaTagsHandler::addGenericMetas($this, null, array());
+  }  
+  
  /**
   * Executes index action
   *
@@ -36,6 +43,24 @@ class productosActions extends sfActions
       }
       
       $this->listadoProductos = MdProductHandler::retrieveProductsByCategory($this->category->getId());
+  }
+  
+  public function executeDetalleProducto(sfWebRequest $request)
+  {
+      $id = $request->getParameter("id");
+      $categorySlug = $request->getParameter("categoria");
+      
+      $this->category = mdCategoryHandler::retrieveBySlug($categorySlug, $this->getUser()->getCulture());
+      $this->mySlots = array();
+      $this->mySlots[] = $categorySlug;
+      $this->parent = $this->category->getMdParentCategory();
+      while(!is_null($this->parent))
+      {
+          $this->mySlots[] = $this->parent->getSlug();
+          
+          $this->parent = $this->parent->getMdParentCategory();
+      }
+      $this->producto = MdProductHandler::retrieveMdProductById($id);
   }
   
 }

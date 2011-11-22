@@ -575,3 +575,37 @@ div.premio_container{
 .left .productos_categories_list li a.cat_selected{
     background-color: #C2FFF3 !important;
 }
+
+/** Productos small **/
+div.producto_small_container {
+	float: left;
+	margin-top: 15px;
+	margin-left: 5px;
+	text-align: center;
+}
+
+div.producto_small_container label{
+	font-weight: bold;
+}
+
+
+/** Producto big **/
+
+div.div_contenedor_producto{
+	width: 100%;
+}
+
+div.div_contenedor_producto h3{
+	text-align: center;
+}
+
+div.div_contenedor_producto div.div_datos_izquierdos{
+	width: 48%;
+	float: left;
+	margin-left: 10px;
+}
+
+div.div_contenedor_producto div.div_imagenes_derecha{
+	width: 50%;
+	float: left;
+}
