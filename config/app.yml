@@ -1,0 +1,9 @@
+all:
+  Metas:
+    prefix: 'Meta_'
+    tags: ['title','description','keywords']
+    sources:
+      title: 'Titulo'
+      description: 'Desripcion'
+      keywords: 'Keywords'
+      

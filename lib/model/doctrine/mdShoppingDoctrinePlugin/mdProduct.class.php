@@ -12,5 +12,9 @@
  */
 class mdProduct extends PluginmdProduct
 {
+    
+    public function retrieveDefault() {
+        return "/images/noImage.jpg";
+    }
 
 }

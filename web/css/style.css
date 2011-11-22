@@ -546,3 +546,32 @@ div.premio_container{
 {
 	margin-left: 18px;
 }
+
+/** Productos **/
+
+.left .productos_categories_list{
+    list-style: none;
+}
+
+.left .productos_categories_list li{
+    float: left;
+    padding-right: 5px;
+    background-color: #FFFFCC;
+    color: #000000;
+    display: block;
+    font: bold 11px/31px Arial,Helvetica,sans-serif;
+    text-decoration: none;
+}
+
+.left .productos_categories_list li a{
+    background-color: #FFFFCC;
+    color: #000000;
+    display: block;
+    font: bold 11px/31px Arial,Helvetica,sans-serif;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.left .productos_categories_list li a.cat_selected{
+    background-color: #C2FFF3 !important;
+}

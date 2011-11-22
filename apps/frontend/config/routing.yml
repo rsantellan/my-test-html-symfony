@@ -1,6 +1,24 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
+# default rules
+
+categorias:
+  url: /productos/:slug.html
+  class:   sfDoctrineRoute
+  options: { model: mdCategory, type: object }
+  param: { module: productos, action: categoria }
+  requirements:
+    sf_method: [get]
+
+productos:
+  url:   /productos
+  param: { module: productos, action: index }
+
+quienesSomos:
+  url:   /quienes-somos.html
+  param: { module: default, action: quienesSomos }
+
 galeria:
   url:   /galeria.html
   param: { module: default, action: galeria }

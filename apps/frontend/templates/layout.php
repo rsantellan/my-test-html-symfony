@@ -20,12 +20,12 @@
                 <?php echo image_tag("logo-naturalia-204.png", array("alt" => "Naturalia", "height" => "100", "style" => "display:none")); ?>
                 <?php echo image_tag("trk-small-opacity-queso.png", array("alt" => "Naturalia", "style" => "display:none")); ?>
                 <?php echo image_tag("borde_pagina copia.jpg", array("alt" => "Naturalia", "class" => "header_background_image",  "style" => "display:block")); ?>
-                <ul>
+                <ul> 
                     <li><a href="<?php echo url_for("@homepage");?>" class="<?php if(has_slot('home')){ echo 'home'; } else { echo ''; } ?>"><?php echo __("menu_inicio"); ?></a></li>
                     <li><a href="<?php echo url_for("@galeria");?>" class="<?php if(has_slot('galeria')){ echo 'home'; } else { echo ''; } ?>"><?php echo __("menu_galeria"); ?></a></li>
-                    <li><a href="quienes_somos.html">Quienes somos</a></li>
+                    <li><a href="<?php echo url_for("@quienesSomos");?>" class="<?php if(has_slot('quienesSomos')){ echo 'home'; } else { echo ''; } ?>"><?php echo __("menu_Quienes somos"); ?></a></li>
                     <li><a href="<?php echo url_for("@location");?>" class="<?php if(has_slot('locations')){ echo 'home'; } else { echo ''; } ?>"><?php echo __("menu_locaciones"); ?></a></li>
-                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="<?php echo url_for("@productos");?>" class="<?php if(has_slot('productos')){ echo 'home'; } else { echo ''; } ?>"><?php echo __("menu_productos"); ?></a></li>
                     <li><a href="<?php echo url_for("@mdContact");?>" class="<?php if(has_slot('mdContact')){ echo 'home'; } else { echo ''; } ?>"><?php echo __("menu_contacto"); ?></a></li>
                 </ul>
             </div><br class="spacer" />
