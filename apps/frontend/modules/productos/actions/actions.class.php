@@ -25,6 +25,8 @@ class productosActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
       $this->getUser()->setFlash("categoryCacheKey", "-");
+	  $params = array();
+	  mdMetaTagsHandler::addMetas($this,'productos', array('params'=>$params));
   }
   
   public function executeCategoria(sfWebRequest $request)
@@ -54,6 +56,9 @@ class productosActions extends sfActions
       $this->pager->setPage($this->getRequestParameter('page',1));
       $this->pager->init();
 	  
+	  $params = array();
+	  $params['[Categoria]'] = $this->category->getName();
+	  mdMetaTagsHandler::addMetas($this,'categoria', array('params'=>$params, 'debug'=>true));
   }
   
   public function executeDetalleProducto(sfWebRequest $request)

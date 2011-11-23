@@ -33,21 +33,12 @@
 
 			<!--right start-->
             <div class="right">
-			    <div class="search">
-                    <span class="topCurve"></span>
-                    <form class="searchForm" name="form1" method="post" action="">
-                      <h2><span>Newsletter</span></h2>
-                      <input name="textfield" type="text" value="E-mail" />
-                      <input type="submit" value="inscribirse" class="button" />					
-                      <br class="spacer" />     
-                    </form> 
-                    <span class="bottomCurve"></span>
-                </div>
+			  <?php include_component("productos", "buscador"); ?>
 			  <?php if(has_slot('productos')): ?>
 				<div class="search">
                     <span class="topCurve"></span>
 					<div class="container_left_categories">
-					  <h2><span>Categorias</span></h2>
+					  <h2><span><?php echo __("productos_categorias");?></span></h2>
             <?php 
               $categories_string = $sf_user->getFlash("categoryCacheKey"); 
               $categories_list = explode("_", $categories_string);

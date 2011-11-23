@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-23T16:33:20Z" product-name="messages">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-23T17:55:53Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
@@ -131,7 +131,12 @@
       </trans-unit>
       <trans-unit id="26">
         <source>galeria_texto</source>
-        <target/>
+        <target>&lt;p&gt;"Upon my soul, he's been studying Murray's Grammar! Improving his mind, poor fellow! But what's that he says now&mdash;hist!"&lt;/p&gt;
+
+&lt;p&gt;"I look, you look, he looks; we look, ye look, they look."&lt;/p&gt;
+
+&lt;p&gt;"Why, he's getting it by heart&mdash;hist! again."&lt;/p&gt;</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="27">
         <source>menu_Quienes somos</source>
@@ -349,15 +354,53 @@
       </trans-unit>
       <trans-unit id="69">
         <source>producto_ANTERIOR</source>
-        <target/>
+        <target>&lt;&lt; Anterior</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="70">
         <source>producto_SIGUIENTE</source>
-        <target/>
+        <target>SIGUIENTE &gt;&gt;</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="71">
         <source>producto_volver</source>
-        <target/>
+        <target>&lt;&lt; Volver</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>productos_categorias</source>
+        <target>Categorías</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>productos_buscador</source>
+        <target>Buscador</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>productos_buscar</source>
+        <target>Buscar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>Meta_Titulo productos</source>
+        <target>Naturalia - Productos</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>Meta_Desripcion productos</source>
+        <target>Naturalia - Nuestros productos</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>Meta_Keywords productos</source>
+        <target>Quesos, Uruguay, Venta, Colonia, Emhental, fondue, montevideo, productos</target>
+        <note>es</note>
+      </trans-unit>
+	  <trans-unit id="78">
+        <source>Meta_Titulo categoria</source>
+        <target>Naturalia - [Categoria]</target>
+        <note>es</note>
       </trans-unit>
     </body>
   </file>
