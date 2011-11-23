@@ -6,5 +6,10 @@ class productosComponents extends sfComponents {
     {
       $this->categorias = mdCategoryHandler::retrieveAllParentCategoriesOfClass("mdProduct");
     }
+	
+	public function executeBuscador(sfWebRequest $request)
+	{
+	  
+	}
 
 }
