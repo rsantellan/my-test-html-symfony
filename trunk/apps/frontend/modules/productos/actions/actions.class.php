@@ -42,14 +42,23 @@ class productosActions extends sfActions
           $this->parent = $this->parent->getMdParentCategory();
       }
       
-      $this->listadoProductos = MdProductHandler::retrieveProductsByCategory($this->category->getId());
+      //$this->listadoProductos = MdProductHandler::retrieveProductsByCategory($this->category->getId());
+      $options = array();
+      $options["return_query"] = true;
+      $query = MdProductHandler::retrieveProductsByCategory($this->category->getId(), $options);
+      $this->quantity = 6;
+      $this->pager = new sfDoctrinePager ( 'mdProduct', $this->quantity );
+      $this->pager->setQuery ( $query );
+      $this->pager->setPage($this->getRequestParameter('page',1));
+      $this->pager->init();
+	  
   }
   
   public function executeDetalleProducto(sfWebRequest $request)
   {
       $id = $request->getParameter("id");
       $categorySlug = $request->getParameter("categoria");
-      
+      $this->page = $request->getParameter("page", 1);
       $this->category = mdCategoryHandler::retrieveBySlug($categorySlug, $this->getUser()->getCulture());
       $this->mySlots = array();
       $this->mySlots[] = $categorySlug;

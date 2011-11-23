@@ -30,11 +30,10 @@
                 </ul>
             </div><br class="spacer" />
             <!--header end-->      
-            
-                <?php echo $sf_content ?>
-            <!--right start-->
+
+			<!--right start-->
             <div class="right">
-		<div class="search">
+			    <div class="search">
                     <span class="topCurve"></span>
                     <form class="searchForm" name="form1" method="post" action="">
                       <h2><span>Newsletter</span></h2>
@@ -44,9 +43,24 @@
                     </form> 
                     <span class="bottomCurve"></span>
                 </div>
+			  <?php if(has_slot('productos')): ?>
+				<div class="search">
+                    <span class="topCurve"></span>
+					<div class="container_left_categories">
+					  <h2><span>Categorias</span></h2>
+					  <?php include_component("productos", "categoriasMenu"); ?>
+					  
+					</div>
+                    <span class="bottomCurve"></span>
+                </div>
+			  <?php endif; ?>
             </div>
-            <br class="spacer" />
-            <!--right end -->
+			
+            
+            <!--right end -->			
+			
+                <?php echo $sf_content ?>
+            
             <!--bottom start -->
             <br class="spacer" />
             <!--bottom end -->
