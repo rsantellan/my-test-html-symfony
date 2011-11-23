@@ -16,6 +16,14 @@ class mdProductSearchTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('mdProductSearch');
     }
+
+    public function retrieveOneByIdAndLang($productId, $lang)
+    {
+      $query = $this->createQuery("mdPS");
+      $query->addWhere("mdPS.id = ?", $productId)
+            ->addWhere("mdPS.lang = ?", $lang);
+      return $query->fetchOne();
+    }
     
     public function retrieveSearchQuery($phrase = "", $order = 0)
     {

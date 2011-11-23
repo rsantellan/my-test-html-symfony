@@ -10,7 +10,6 @@
  * @property string $name
  * @property boolean $is_public
  * @property string $descripcion
- * @property string $codigo
  * @property string $premios
  * @property string $presentaciones
  * @property string $consistencia
@@ -34,7 +33,6 @@
  * @method string          getName()           Returns the current record's "name" value
  * @method boolean         getIsPublic()       Returns the current record's "is_public" value
  * @method string          getDescripcion()    Returns the current record's "descripcion" value
- * @method string          getCodigo()         Returns the current record's "codigo" value
  * @method string          getPremios()        Returns the current record's "premios" value
  * @method string          getPresentaciones() Returns the current record's "presentaciones" value
  * @method string          getConsistencia()   Returns the current record's "consistencia" value
@@ -57,7 +55,6 @@
  * @method mdProductSearch setName()           Sets the current record's "name" value
  * @method mdProductSearch setIsPublic()       Sets the current record's "is_public" value
  * @method mdProductSearch setDescripcion()    Sets the current record's "descripcion" value
- * @method mdProductSearch setCodigo()         Sets the current record's "codigo" value
  * @method mdProductSearch setPremios()        Sets the current record's "premios" value
  * @method mdProductSearch setPresentaciones() Sets the current record's "presentaciones" value
  * @method mdProductSearch setConsistencia()   Sets the current record's "consistencia" value
@@ -94,7 +91,7 @@ abstract class BasemdProductSearch extends sfDoctrineRecord
              ));
         $this->hasColumn('lang', 'string', 2, array(
              'type' => 'string',
-             'notnull' => true,
+             'primary' => true,
              'length' => 2,
              ));
         $this->hasColumn('name', 'string', 255, array(
@@ -107,10 +104,6 @@ abstract class BasemdProductSearch extends sfDoctrineRecord
              'default' => 1,
              ));
         $this->hasColumn('descripcion', 'string', 500, array(
-             'type' => 'string',
-             'length' => 500,
-             ));
-        $this->hasColumn('codigo', 'string', 500, array(
              'type' => 'string',
              'length' => 500,
              ));

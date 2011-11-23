@@ -20,11 +20,12 @@ class mdProduct extends PluginmdProduct
   public function postSave($event) 
   {
     $culture = sfContext::getInstance()->getUser()->getCulture();
-    $mdProductSearch = Doctrine::getTable("mdProductSearch")->find($this->getId());
+    $mdProductSearch = Doctrine::getTable("mdProductSearch")->retrieveOneByIdAndLang($this->getId(), $culture);
     if(!$mdProductSearch)
     {
       $mdProductSearch = new mdProductSearch();
       $mdProductSearch->setId($this->getId());
+      $mdProductSearch->setLang($culture);
     }
     
     $mdProductSearch->setName($this->getName());
