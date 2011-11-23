@@ -1,0 +1,11 @@
+_categoriasMenu:
+  enabled:     true
+  lifetime:    21600
+
+_productoSmallInfo:
+  enabled:     true
+  lifetime:    21600
+
+_productoBigInfo:
+  enabled:     true
+  lifetime:    21600
