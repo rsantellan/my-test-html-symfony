@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-22T16:25:30Z" product-name="messages">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-23T14:16:41Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
@@ -250,14 +250,109 @@
       </trans-unit>
       <trans-unit id="50">
         <source>productos_titulo izquierdo</source>
-        <target/>
+        <target>Prod</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="51">
         <source>productos_titulo derecho</source>
-        <target/>
+        <target>uctos</target>
+        <note>es</note>
       </trans-unit>
       <trans-unit id="52">
         <source>productos_bienvenidos</source>
+        <target>&lt;p&gt;Deliberately standing before the binnacle, and eyeing the transpointed compasses, the old man, with the sharp of his extended hand, now took the precise bearing of the sun, and satisfied that the needles were exactly inverted, shouted out his orders for the ship's course to be changed accordingly. The yards were hard up; and once more the Pequod thrust her undaunted bows into the opposing wind, for the supposed fair one had only been juggling her.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, whatever were his own secret thoughts, Starbuck said nothing, but quietly he issued all requisite orders; while Stubb and Flask&mdash;who in some small degree seemed then to be sharing his feelings&mdash;likewise unmurmuringly acquiesced. As for the men, though some of them lowly rumbled, their fear of Ahab was greater than their fear of Fate. But as ever before, the pagan harpooneers remained almost wholly unimpressed; or if impressed, it was only with a certain magnetism shot into their congenial hearts from inflexible Ahab's.&lt;/p&gt;
+
+&lt;p&gt;For a space the old man walked the deck in rolling reveries. But chancing to slip with his ivory heel, he saw the crushed copper sight-tubes of the quadrant he had the day before dashed to the deck.&lt;/p&gt;</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>producto_Descripcion label</source>
+        <target>Descripción</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>producto_Premios label</source>
+        <target>Premios</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>producto_Presentaciones label</source>
+        <target>Presentaciones</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>producto_Consistencia label</source>
+        <target>Consistencia</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>producto_Textura label</source>
+        <target>Textura</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>producto_Ojos label</source>
+        <target>Ojos</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>producto_Color label</source>
+        <target>Color</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>producto_Sabor label</source>
+        <target>Sabor</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>producto_Humedad label</source>
+        <target>Humedad</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>producto_Materia Grasa label</source>
+        <target>Materia Grasa</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>producto_Clasificacion label</source>
+        <target>Clasificación</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>producto_Coliformes a 30 label</source>
+        <target>Coliformes a 35ºC</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>producto_Coliformes a 45 label</source>
+        <target>Coliformes a 45ºC</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>producto_Staphilococcus label</source>
+        <target>Staphillococus coag +</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>producto_Salmonella label</source>
+        <target>Salmonella spp</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>producto_Listeria label</source>
+        <target>Listerya Monocytogenes</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>producto_ANTERIOR</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>producto_SIGUIENTE</source>
         <target/>
       </trans-unit>
     </body>

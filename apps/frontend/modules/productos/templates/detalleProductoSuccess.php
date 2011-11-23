@@ -9,11 +9,9 @@
 
 <!--left start-->
 <div class="left">
-    <?php include_component("productos", "categoriasMenu"); ?>
-    
-    <br class="spacer" />
-    
+    <div>
+      <a href="<?php echo url_for('categorias', $category)."?page=".$page?>"> <?php echo __("producto_volver"); ?></a>
+    </div>
     <?php include_partial("productoBigInfo", array("producto" => $producto, 'sf_cache_key' => $producto->getId())); ?>
-    
 </div>
 <!--left end-->

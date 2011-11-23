@@ -15,7 +15,6 @@ class mdCategoryForm extends PluginmdCategoryForm {
         if ($this->getObject()->getObjectClassName()) { //Si tiene seteada la clase de los objetos que maneja la categoria
             //si esta configurado para que solo se maneje un nivel de categorias padre
             if (sfConfig::get('sf_plugins_category_mono_level', false)) {
-
                 //si el objeto del form ya tiene configurado un padre, lo paso como input hidden
                 if ($this->getObject()->getMdCategoryParentId())
                     $parent_hidden_value = $this->getObject()->getMdCategoryParentId();
@@ -23,6 +22,7 @@ class mdCategoryForm extends PluginmdCategoryForm {
                     $objects = Doctrine::getTable('mdCategory')->getRoots($this->getObject()->getObjectClassName());
             }
             else {
+                
                 if ($this->isNew()) { //si es un nuevo objeto
                     if ($this->getObject()->getMdCategoryParentId()) { //si tiene configurado un parent_id pido los hijos de este
                         $objects = Doctrine::getTable('mdCategory')->findByClassAndParentId($this->getObject()->getObjectClassName(), $this->getObject()->getMdCategoryParentId(), array('recursive' => true));
@@ -48,10 +48,11 @@ class mdCategoryForm extends PluginmdCategoryForm {
             $objects = Doctrine::getTable('mdCategory')->findAll();
         }
         // si solo tengo un padre disponible lo uso sin dar la opcion de elegirlo.
+        /*
         if (isset($objects) and count($objects) == 1) {
             $parent_hidden_value = $objects->getFirst()->getId();
         }
-
+        */
         if (isset($parent_hidden_value)) {
             $this->widgetSchema['md_category_parent_id'] = new sfWidgetFormInputHidden(array(), array('value' => $parent_hidden_value));
         } else {
