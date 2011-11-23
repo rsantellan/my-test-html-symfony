@@ -113,9 +113,10 @@ class mdMetaTagsHandler {
                             echo '  <=> setup title';
                     }
                 }else {
-                    if (!$preserveActionMetas or !in_array($tag, $action->getResponse()->getMetas())) {
-
-                        $action->getResponse()->addMeta($tag, $lang->__($inst_source, $params));
+                    if (!$preserveActionMetas && !in_array($tag, $action->getResponse()->getMetas())) {
+                        //var_dump($preserveActionMetas);
+                        
+                        $action->getResponse()->addMeta(strtolower($tag), $lang->__($inst_source, $params));
                         if ($debug)
                             echo '  <=> setup ' . $tag;
                     }

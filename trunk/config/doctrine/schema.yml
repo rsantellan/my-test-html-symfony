@@ -1,0 +1,56 @@
+mdProductSearch:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    lang:
+      type: string(2)
+      notnull: true
+    name: 
+      type: string(255)
+      notnull: true
+    is_public:
+      type: boolean
+      default: 1
+    descripcion: 
+      type: string(500)
+    codigo: 
+      type: string(500)
+    premios: 
+      type: string(500)
+    presentaciones: 
+      type: string(500)
+    consistencia: 
+      type: string(500)
+    textura: 
+      type: string(500)
+    ojos: 
+      type: string(500)
+    color: 
+      type: string(500)
+    sabor: 
+      type: string(500)
+    humedad: 
+      type: string(500)
+    materiaGrasa: 
+      type: string(500)
+    clasificacion: 
+      type: string(500)
+    coliformes35: 
+      type: string(500)
+    coliformes45: 
+      type: string(500)
+    staphilococus: 
+      type: string(500)
+    salmonella: 
+      type: string(500)
+    listerya: 
+      type: string(500)
+    price: { type: double, notnull: true }
+  relations:
+    mdProduct:
+      local: id
+      foreign: id
+      type: one      
+      onDelete: CASCADE
