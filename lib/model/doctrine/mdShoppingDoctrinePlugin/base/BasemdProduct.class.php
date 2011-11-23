@@ -19,35 +19,38 @@
  * @property integer $priority
  * @property mdUnit $mdUnit
  * @property mdCurrency $mdCurrency
+ * @property Doctrine_Collection $mdProductSearch
  * 
- * @method integer    getId()                Returns the current record's "id" value
- * @method string     getName()              Returns the current record's "name" value
- * @method double     getPrice()             Returns the current record's "price" value
- * @method integer    getQuantity()          Returns the current record's "quantity" value
- * @method float      getTax()               Returns the current record's "tax" value
- * @method boolean    getIsPublic()          Returns the current record's "is_public" value
- * @method integer    getMdUnitId()          Returns the current record's "md_unit_id" value
- * @method integer    getMdCurrencyId()      Returns the current record's "md_currency_id" value
- * @method boolean    getIsMultiple()        Returns the current record's "is_multiple" value
- * @method float      getWeight()            Returns the current record's "weight" value
- * @method float      getVolumetricWeight()  Returns the current record's "volumetric_weight" value
- * @method integer    getPriority()          Returns the current record's "priority" value
- * @method mdUnit     getMdUnit()            Returns the current record's "mdUnit" value
- * @method mdCurrency getMdCurrency()        Returns the current record's "mdCurrency" value
- * @method mdProduct  setId()                Sets the current record's "id" value
- * @method mdProduct  setName()              Sets the current record's "name" value
- * @method mdProduct  setPrice()             Sets the current record's "price" value
- * @method mdProduct  setQuantity()          Sets the current record's "quantity" value
- * @method mdProduct  setTax()               Sets the current record's "tax" value
- * @method mdProduct  setIsPublic()          Sets the current record's "is_public" value
- * @method mdProduct  setMdUnitId()          Sets the current record's "md_unit_id" value
- * @method mdProduct  setMdCurrencyId()      Sets the current record's "md_currency_id" value
- * @method mdProduct  setIsMultiple()        Sets the current record's "is_multiple" value
- * @method mdProduct  setWeight()            Sets the current record's "weight" value
- * @method mdProduct  setVolumetricWeight()  Sets the current record's "volumetric_weight" value
- * @method mdProduct  setPriority()          Sets the current record's "priority" value
- * @method mdProduct  setMdUnit()            Sets the current record's "mdUnit" value
- * @method mdProduct  setMdCurrency()        Sets the current record's "mdCurrency" value
+ * @method integer             getId()                Returns the current record's "id" value
+ * @method string              getName()              Returns the current record's "name" value
+ * @method double              getPrice()             Returns the current record's "price" value
+ * @method integer             getQuantity()          Returns the current record's "quantity" value
+ * @method float               getTax()               Returns the current record's "tax" value
+ * @method boolean             getIsPublic()          Returns the current record's "is_public" value
+ * @method integer             getMdUnitId()          Returns the current record's "md_unit_id" value
+ * @method integer             getMdCurrencyId()      Returns the current record's "md_currency_id" value
+ * @method boolean             getIsMultiple()        Returns the current record's "is_multiple" value
+ * @method float               getWeight()            Returns the current record's "weight" value
+ * @method float               getVolumetricWeight()  Returns the current record's "volumetric_weight" value
+ * @method integer             getPriority()          Returns the current record's "priority" value
+ * @method mdUnit              getMdUnit()            Returns the current record's "mdUnit" value
+ * @method mdCurrency          getMdCurrency()        Returns the current record's "mdCurrency" value
+ * @method Doctrine_Collection getMdProductSearch()   Returns the current record's "mdProductSearch" collection
+ * @method mdProduct           setId()                Sets the current record's "id" value
+ * @method mdProduct           setName()              Sets the current record's "name" value
+ * @method mdProduct           setPrice()             Sets the current record's "price" value
+ * @method mdProduct           setQuantity()          Sets the current record's "quantity" value
+ * @method mdProduct           setTax()               Sets the current record's "tax" value
+ * @method mdProduct           setIsPublic()          Sets the current record's "is_public" value
+ * @method mdProduct           setMdUnitId()          Sets the current record's "md_unit_id" value
+ * @method mdProduct           setMdCurrencyId()      Sets the current record's "md_currency_id" value
+ * @method mdProduct           setIsMultiple()        Sets the current record's "is_multiple" value
+ * @method mdProduct           setWeight()            Sets the current record's "weight" value
+ * @method mdProduct           setVolumetricWeight()  Sets the current record's "volumetric_weight" value
+ * @method mdProduct           setPriority()          Sets the current record's "priority" value
+ * @method mdProduct           setMdUnit()            Sets the current record's "mdUnit" value
+ * @method mdProduct           setMdCurrency()        Sets the current record's "mdCurrency" value
+ * @method mdProduct           setMdProductSearch()   Sets the current record's "mdProductSearch" collection
  * 
  * @package    naturalia
  * @subpackage model
@@ -134,6 +137,10 @@ abstract class BasemdProduct extends sfDoctrineRecord
 
         $this->hasOne('mdCurrency', array(
              'local' => 'md_currency_id',
+             'foreign' => 'id'));
+
+        $this->hasMany('mdProductSearch', array(
+             'local' => 'id',
              'foreign' => 'id'));
 
         $mdcontentbehavior0 = new MdContentBehavior();

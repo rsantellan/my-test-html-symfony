@@ -17,4 +17,19 @@ class mdProduct extends PluginmdProduct
         return "/images/noImage.jpg";
     }
 
+  public function postSave($event) 
+  {
+    $culture = sfContext::getInstance()->getUser()->getCulture();
+    $mdProductSearch = Doctrine::getTable("mdProductSearch")->find($this->getId());
+    if(!$mdProductSearch)
+    {
+      $mdProductSearch = new mdProductSearch();
+      $mdProductSearch->setId($this->getId());
+    }
+    
+    $mdProductSearch->setName($this->getName());
+    $mdProductSearch->setIsPublic($this->getIsPublic());
+    $mdProductSearch->setPrice($this->getPrice());
+    $mdProductSearch->save();
+  }
 }
