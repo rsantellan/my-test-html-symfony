@@ -16,11 +16,10 @@ abstract class BasemdProductSearchForm extends BaseFormDoctrine
   {
     $this->setWidgets(array(
       'id'             => new sfWidgetFormInputHidden(),
-      'lang'           => new sfWidgetFormInputText(),
+      'lang'           => new sfWidgetFormInputHidden(),
       'name'           => new sfWidgetFormInputText(),
       'is_public'      => new sfWidgetFormInputCheckbox(),
       'descripcion'    => new sfWidgetFormTextarea(),
-      'codigo'         => new sfWidgetFormTextarea(),
       'premios'        => new sfWidgetFormTextarea(),
       'presentaciones' => new sfWidgetFormTextarea(),
       'consistencia'   => new sfWidgetFormTextarea(),
@@ -41,11 +40,10 @@ abstract class BasemdProductSearchForm extends BaseFormDoctrine
 
     $this->setValidators(array(
       'id'             => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'lang'           => new sfValidatorString(array('max_length' => 2)),
+      'lang'           => new sfValidatorChoice(array('choices' => array($this->getObject()->get('lang')), 'empty_value' => $this->getObject()->get('lang'), 'required' => false)),
       'name'           => new sfValidatorString(array('max_length' => 255)),
       'is_public'      => new sfValidatorBoolean(array('required' => false)),
       'descripcion'    => new sfValidatorString(array('max_length' => 500, 'required' => false)),
-      'codigo'         => new sfValidatorString(array('max_length' => 500, 'required' => false)),
       'premios'        => new sfValidatorString(array('max_length' => 500, 'required' => false)),
       'presentaciones' => new sfValidatorString(array('max_length' => 500, 'required' => false)),
       'consistencia'   => new sfValidatorString(array('max_length' => 500, 'required' => false)),

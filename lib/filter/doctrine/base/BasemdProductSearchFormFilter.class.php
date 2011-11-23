@@ -13,11 +13,9 @@ abstract class BasemdProductSearchFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'lang'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'name'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'is_public'      => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'descripcion'    => new sfWidgetFormFilterInput(),
-      'codigo'         => new sfWidgetFormFilterInput(),
       'premios'        => new sfWidgetFormFilterInput(),
       'presentaciones' => new sfWidgetFormFilterInput(),
       'consistencia'   => new sfWidgetFormFilterInput(),
@@ -37,11 +35,9 @@ abstract class BasemdProductSearchFormFilter extends BaseFormFilterDoctrine
     ));
 
     $this->setValidators(array(
-      'lang'           => new sfValidatorPass(array('required' => false)),
       'name'           => new sfValidatorPass(array('required' => false)),
       'is_public'      => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'descripcion'    => new sfValidatorPass(array('required' => false)),
-      'codigo'         => new sfValidatorPass(array('required' => false)),
       'premios'        => new sfValidatorPass(array('required' => false)),
       'presentaciones' => new sfValidatorPass(array('required' => false)),
       'consistencia'   => new sfValidatorPass(array('required' => false)),
@@ -82,7 +78,6 @@ abstract class BasemdProductSearchFormFilter extends BaseFormFilterDoctrine
       'name'           => 'Text',
       'is_public'      => 'Boolean',
       'descripcion'    => 'Text',
-      'codigo'         => 'Text',
       'premios'        => 'Text',
       'presentaciones' => 'Text',
       'consistencia'   => 'Text',

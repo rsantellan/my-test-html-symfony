@@ -6,6 +6,7 @@ mdProductSearch:
       autoincrement: true
     lang:
       type: string(2)
+      primary: true
       notnull: true
     name: 
       type: string(255)
@@ -14,8 +15,6 @@ mdProductSearch:
       type: boolean
       default: 1
     descripcion: 
-      type: string(500)
-    codigo: 
       type: string(500)
     premios: 
       type: string(500)
