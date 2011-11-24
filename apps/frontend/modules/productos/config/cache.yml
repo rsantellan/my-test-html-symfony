@@ -11,5 +11,5 @@ _productoBigInfo:
   lifetime:    21600
 
 _productoBusqueda:
-  enabled:     true
+  enabled:     false
   lifetime:    21600

@@ -15,6 +15,15 @@ class productosComponents extends sfComponents {
   public function executeProductoBusqueda(sfWebRequest $request)
   {
     $this->producto = MdProductHandler::retrieveMdProductById($this->id);
+    
+    $categories = $this->producto->getmdCategories();
+    $this->show = false;
+    if(count($categories) > 0)
+    {
+      $this->show = true;
+      $this->slug = $categories->end()->getSlug();
+    }
+    
   }
 
 }

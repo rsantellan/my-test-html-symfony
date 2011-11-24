@@ -15,6 +15,7 @@
         use_plugin_javascript('mastodontePlugin', 'mdLoadController.js');
         use_plugin_stylesheet('mastodontePlugin', '../js/fancybox/jquery.fancybox-1.3.1.css');
         use_plugin_javascript('mastodontePlugin','fancybox/jquery.fancybox-1.3.1.pack.js','last');
+        use_javascript("backendAuxJs.js");
     ?>
     
     <?php else: ?>
@@ -45,7 +46,6 @@
         </div><!--HEADER-->
         <div id="md_menu">
         	<ul class="menu_list">
-            	<li><a href="#">Escritorio</a></li>
 <?php if(sfContext::getInstance()->getRouting()->hasRouteName('mdUserManagement')):?>
                 <li><a href="<?php echo url_for('@mdUserManagement')?>" class="<?php if(has_slot('mdUserManagement')){ echo 'current'; } else { echo ''; } ?>"><?php echo __('backendLayout_Usuarios') ?></a></li>
 <?php endif;

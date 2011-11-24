@@ -65,13 +65,12 @@
         <!--footer start -->
         <div class="footer">
             <ul class="nav">
-                <li><a href="#">Inicio</a>|</li>
-                <li><a href="#">Services</a>|</li>
-                <li><a href="#">Support</a>|</li>
-                <li><a href="#">Testimonials</a>|</li>
-                <li><a href="#">Blog</a>|</li>
-                <li><a href="#">Duty</a>|</li>
-                <li><a href="#">Contact</a></li>
+                    <li><a href="<?php echo url_for("@homepage");?>" class="<?php if(has_slot('home')){ echo 'selected'; } else { echo ''; } ?>"><?php echo __("menu_inicio"); ?></a></li>
+                    <li><a href="<?php echo url_for("@galeria");?>" class="<?php if(has_slot('galeria')){ echo 'selected'; } else { echo ''; } ?>"><?php echo __("menu_galeria"); ?></a></li>
+                    <li><a href="<?php echo url_for("@quienesSomos");?>" class="<?php if(has_slot('quienesSomos')){ echo 'selected'; } else { echo ''; } ?>"><?php echo __("menu_Quienes somos"); ?></a></li>
+                    <li><a href="<?php echo url_for("@location");?>" class="<?php if(has_slot('locations')){ echo 'selected'; } else { echo ''; } ?>"><?php echo __("menu_locaciones"); ?></a></li>
+                    <li><a href="<?php echo url_for("@productos");?>" class="<?php if(has_slot('productos')){ echo 'selected'; } else { echo ''; } ?>"><?php echo __("menu_productos"); ?></a></li>
+                    <li><a href="<?php echo url_for("@mdContact");?>" class="<?php if(has_slot('mdContact')){ echo 'selected'; } else { echo ''; } ?>"><?php echo __("menu_contacto"); ?></a></li>
             </ul><br class="spacer" />
             <p class="copyright">© float. All rights reserved.</p><br class="spacer" />
             <ul class="navlink">

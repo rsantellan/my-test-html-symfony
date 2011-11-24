@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-22T10:53:25Z" product-name="messages">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-24T18:31:25Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
@@ -22,6 +22,61 @@
       <trans-unit id="4">
         <source>Layout_publicar</source>
         <target>Publicar.</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>mdUserDoctrine_text_blocked</source>
+        <target>Por usuarios bloqueados</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>mdUserDoctrine_text_IsActive</source>
+        <target>Activo</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>mdUserDoctrine_text_IsBlocked</source>
+        <target>Bloqueado</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>mdDynamicContentDoctrine_text_backendlocales</source>
+        <target>Locales</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>mdDynamicContentDoctrine_text_backendpuntoVenta</source>
+        <target>Puntos de venta</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>layout_mdDynamicContentlocales</source>
+        <target>Locales</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>layout_Ordenar</source>
+        <target>Ordenar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>layout_mdDynamicContentpuntoVenta</source>
+        <target>Puntos de ventas</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>ordenar_Titulo</source>
+        <target>Ordenar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>layout_mdProduct</source>
+        <target>Productos</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>ordenar_Seleccione una categoria padre</source>
+        <target>Seleccione una categoría padre</target>
         <note>es</note>
       </trans-unit>
     </body>

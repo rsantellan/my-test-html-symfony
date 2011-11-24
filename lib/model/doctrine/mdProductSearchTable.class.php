@@ -25,7 +25,7 @@ class mdProductSearchTable extends Doctrine_Table
       return $query->fetchOne();
     }
     
-    public function retrieveSearchQuery($phrase = "", $order = 0)
+    public function retrieveSearchQuery($phrase = "", $lang = 'es', $order = 0)
     {
       $query = $this->createQuery("mdPS");
       //$query->select("mdPS.md_user_id");
@@ -45,7 +45,8 @@ class mdProductSearchTable extends Doctrine_Table
       {
         $query->addWhere("mdPS.id = ?", 0);
       }
-      $query->addWhere("mdPS.is_public = ?", true);
+      
+      $query->addWhere("mdPS.is_public = ?", true)->addWhere("mdPS.lang = ?", $lang);
       switch($order)
       {
         

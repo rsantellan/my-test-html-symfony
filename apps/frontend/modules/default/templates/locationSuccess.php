@@ -19,7 +19,7 @@
     
     <br class="spacer" />
     
-    <h3>Gente que lo vende...</h3>
+    <h3><?php echo __("locales_nuestros productos se pueden encontrar en");?></h3>
     <div class="locales_venta_container">
         <?php foreach($puntosVenta as $local): ?>
             <?php include_partial("localVentaInfo", array("local" => $local, 'sf_cache_key' => "nat_local_venta_".$local->getId()));?>
