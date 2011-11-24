@@ -9,3 +9,7 @@ _productoSmallInfo:
 _productoBigInfo:
   enabled:     true
   lifetime:    21600
+
+_productoBusqueda:
+  enabled:     true
+  lifetime:    21600

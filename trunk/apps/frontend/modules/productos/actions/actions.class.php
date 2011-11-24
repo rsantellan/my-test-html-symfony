@@ -108,7 +108,6 @@ class productosActions extends sfActions
         if($this->form->isValid())
         {
           $nombre = $parameters["nombre"];
-          $filter_type = $parameters["filter_type"];
           $this->nombre = $nombre;
           $query = Doctrine::getTable("mdProductSearch")->retrieveSearchQuery($nombre);
         }
@@ -116,7 +115,7 @@ class productosActions extends sfActions
         {
           $query = Doctrine::getTable("mdProductSearch")->retrieveSearchQuery();
         }
-        $this->quantity = $this->getRequestParameter('quantity', 1);
+        $this->quantity = $this->getRequestParameter('quantity', 12);
         $this->page = $this->getRequestParameter('page', 1);
         $this->pager = new sfDoctrinePager ( 'mdProductSearch', $this->quantity );
         $this->pager->setQuery ( $query );
