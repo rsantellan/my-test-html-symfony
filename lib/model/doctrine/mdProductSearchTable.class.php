@@ -37,7 +37,7 @@ class mdProductSearchTable extends Doctrine_Table
         if(strlen($word) > 1)
         {
           $count++;
-          $query->orWhere("mdPS.name LIKE ? OR mdPS.descripcion LIKE ? OR mdPS.codigo LIKE ? OR mdPS.nombre_tecnico LIKE ?", array("%".$word."%", "%".$word."%", "%".$word."%", "%".$word."%"));
+          $query->orWhere("mdPS.name LIKE ? OR mdPS.descripcion LIKE ? OR mdPS.premios LIKE ? OR mdPS.presentaciones LIKE ? OR mdPS.consistencia LIKE ? OR mdPS.textura LIKE ?", array("%".$word."%", "%".$word."%", "%".$word."%", "%".$word."%", "%".$word."%", "%".$word."%"));
         }
       }
       

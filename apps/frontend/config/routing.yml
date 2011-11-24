@@ -1,6 +1,16 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
+detalleProductoBusqueda:
+  url: /producto/:page/:search/:id/:slug.html
+  param: { module: productos, action: detalleProductoBusqueda }
+
+buscar:
+  url: /busqueda
+  param: { module: productos, action buscar }
+  requirements:
+    sf_method: [get]
+    
 detalleProducto:
   url: /producto/:categoria/:id/:slug.html
   param: { module: productos, action: detalleProducto }
