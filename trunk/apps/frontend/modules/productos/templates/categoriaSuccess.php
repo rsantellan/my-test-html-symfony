@@ -24,7 +24,11 @@
 	  <br class="spacer" />
 	  <div class="paginador">
 		<?php if(!$pager->isFirstPage()): ?>
-		  <a class="last_page_paginador" href="<?php echo url_for('categorias', $category)."?page=".$pager->getPreviousPage();?>" title="<?php echo __("producto_ANTERIOR");?>"><?php echo __("producto_ANTERIOR");?></a>
+		  <a class="last_page_paginador" href="<?php echo url_for('categorias', $category)."?page=".$pager->getPreviousPage();?>" title="<?php echo __("producto_ANTERIOR");?>">
+        <?php echo image_tag("back.png"); ?>
+        <?php echo __("producto_ANTERIOR");?>
+        <?php echo image_tag("back.png"); ?>
+      </a>
 		<?php endif; ?>
 		  
 <!--		<?php //$pagerCount = count($pager->getLinks()) ?>
@@ -38,7 +42,11 @@
 		<?php //endforeach; ?>  -->
 		  
 		<?php if(!$pager->isLastPage()): ?>
-		  <a class="next_page_paginador" href="<?php echo url_for('categorias', $category)."?page=".$pager->getNextPage();?>" title="<?php echo __("producto_SIGUIENTE");?>"><?php echo __("producto_SIGUIENTE");?>
+		  <a class="next_page_paginador" href="<?php echo url_for('categorias', $category)."?page=".$pager->getNextPage();?>" title="<?php echo __("producto_SIGUIENTE");?>">
+        <?php echo image_tag("next.png"); ?>
+        <?php echo __("producto_SIGUIENTE");?>
+        <?php echo image_tag("next.png"); ?>
+      </a>
 		<?php endif; ?>
 	  </div>
 	<?php endif;?>

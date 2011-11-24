@@ -431,6 +431,11 @@ div, p, h1, h2, form, label, img, ul, a{
 	background:url(../images/header_nav_bg.gif) repeat-x 0 0 #FFFFFF;
 	color:#F8F8F8;
 	}
+  
+.footer ul.nav li a.selected{
+	background:url(../images/header_nav_bg.gif) repeat-x 0 0 #FFFFFF;
+	color:#F8F8F8;
+	}
 
 .footer p.copyright{
 	margin:0 auto; padding:5px 0 5px 0; width:145px;
@@ -607,7 +612,14 @@ div.premio_container{
   float:right;
 }
 
+.left div.paginador a{
+  text-decoration: none;
+}
 
+
+div.producto_link_back_container a{
+  text-decoration: none;
+}
 
 /** Productos small **/
 div.producto_small_container {
@@ -628,6 +640,11 @@ div.div_contenedor_producto{
 	width: 100%;
 	color: #660066 !important;
 	font-family: Arial,Helvetica,sans-serif;
+}
+
+div.div_contenedor_producto a{
+  text-decoration: none;
+  border: 0;
 }
 
 div.div_contenedor_producto h3{
@@ -678,3 +695,8 @@ div.clear{
   clear: both;
 }
 
+/** Para corregir el problema de las imagenes en el IE **/
+
+img {
+  border: 0;
+}

@@ -41,7 +41,7 @@ all:
     secure_action:          secure
 
     #Modules enabled 
-    enabled_modules:        [configurations, mdAuth, default, mdUserManagement, backendBasic, mdCategory, mdProduct, mdMediaContentAdmin, mdCategoryObject, uploader, mdDynamicContent, mdTranslator, mdImageFileGallery, mdWebImage, mdSortable, jfilebrowser]
+    enabled_modules:        [configurations, mdAuth, default, mdUserManagement, backendBasic, mdCategory, mdProduct, mdMediaContentAdmin, mdCategoryObject, uploader, mdDynamicContent, mdTranslator, mdImageFileGallery, mdWebImage, mdSortable, jfilebrowser, mdUserConfirmation]
 #, mdUserManagement, backendBasic, mdMediaContentAdmin, mdUserPermission, uploader, mdGroupAndPermissionsManagement, mdTranslator, mdCategory, mdFeaturesBox, mdCategoryObject, mdWebImage, mdUserConfirmation, mdProduct, mdDynamicContent, mdSortable, mdImageFileGallery, jfilebrowser, mdSale, bulkImport]
 
     standard_helpers: [Partial, Cache, I18N, Date]

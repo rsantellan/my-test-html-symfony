@@ -1,1 +1,3 @@
-<?php include_partial("productoSmallInfo", array("producto" => $producto, "slug" => "", "search" => $nombre, "page" => $page, 'sf_cache_key' => "busqueda_".$producto->getId())); ?>
+<?php if($show): ?>
+  <?php include_partial("productoSmallInfo", array("producto" => $producto, "slug" => $slug, 'sf_cache_key' => $producto->getId())); ?>
+<?php endif; ?>

@@ -101,20 +101,8 @@ class productosActions extends sfActions
 
   public function executeBuscar(sfWebRequest $request)
     {
-        $this->form = new searchForm(array(), array(), false);
-        $parameters = $request->getParameter($this->form->getName());
-        $this->form->bind($parameters);
-        $this->nombre = "";
-        if($this->form->isValid())
-        {
-          $nombre = $parameters["nombre"];
-          $this->nombre = $nombre;
-          $query = Doctrine::getTable("mdProductSearch")->retrieveSearchQuery($nombre);
-        }
-        else
-        {
-          $query = Doctrine::getTable("mdProductSearch")->retrieveSearchQuery();
-        }
+        $this->nombre = $this->getRequestParameter('n', "");
+        $query = Doctrine::getTable("mdProductSearch")->retrieveSearchQuery($this->nombre, $this->getUser()->getCulture());
         $this->quantity = $this->getRequestParameter('quantity', 12);
         $this->page = $this->getRequestParameter('page', 1);
         $this->pager = new sfDoctrinePager ( 'mdProductSearch', $this->quantity );

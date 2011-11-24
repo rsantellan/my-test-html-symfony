@@ -18,7 +18,7 @@ class searchForm extends sfForm
         'nombre'    => new sfValidatorString(array('required' => false),$error_message)        
     ));
 
-    $this->widgetSchema->setNameFormat('buscar[%s]');
+    $this->widgetSchema->setNameFormat('%s');
 
   }
 
