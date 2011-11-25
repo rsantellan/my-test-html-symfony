@@ -9,8 +9,8 @@ default:
     #title:        symfony project
     #description:  symfony project
     #keywords:     symfony, project
-    #language:     en
-    #robots:       index, follow
+    language:     es
+    robots:       index, follow
 
   stylesheets:    [main.css]
 
