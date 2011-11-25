@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-24T18:46:01Z" product-name="messages">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-25T10:07:55Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
@@ -82,6 +82,11 @@
       <trans-unit id="16">
         <source>mdDynamicContentDoctrine_text_backendTitle</source>
         <target>Locales y puntos de venta</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>barra_company name</source>
+        <target>Naturalia</target>
         <note>es</note>
       </trans-unit>
     </body>

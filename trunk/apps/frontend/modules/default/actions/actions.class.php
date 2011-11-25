@@ -52,5 +52,9 @@ class defaultActions extends sfActions
         
     }
     
+	public function executeError500(sfWebRequest $request)
+    {
+        
+    }
     
 }
