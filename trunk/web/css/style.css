@@ -494,6 +494,13 @@ div, p, h1, h2, form, label, img, ul, a{
 }
 
 
+/**** Galeria ***/
+
+#slider ul{
+  list-style-type: none;
+}
+
+
 /**** Imagenes de noticias ***/
 
 
@@ -699,4 +706,18 @@ div.clear{
 
 img {
   border: 0;
+}
+
+
+/*** Botoneras ***/
+
+.buttons_containers div{
+  float: right;
+  width: 12%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons_containers div.twitter{
+  margin-right: 36px !important;
 }
