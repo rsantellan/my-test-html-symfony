@@ -9,7 +9,9 @@
 <!--left start-->
 <div class="left">
     <h2><span class="black"><?php echo __("locales_titulo izquierdo");?></span><span class="brown"><?php echo __("locales_titulo derecho");?></span></h2>
-    <p class="darkgrey">
+    <?php include_partial("default/socialButtons"); ?>
+	<br class="spacer" />
+	<p class="darkgrey">
         <?php echo __("locales_sub titulo");?>
     </p>
     <?php foreach($locales as $local): ?>

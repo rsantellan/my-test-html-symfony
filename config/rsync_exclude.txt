@@ -7,7 +7,7 @@
 /apps/frontend/config/factories.yml
 /config/factories.yml
 /config/databases.yml
-/config/app.yml
+#/config/app.yml
 #/apps/frontend/i18n/*
 /apps/backend/i18n/*
 /lib/vendor/*
