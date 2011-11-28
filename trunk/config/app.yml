@@ -1,4 +1,7 @@
 all:
+  .mail:
+    php_mailer_enabled: true
+    
   Metas:
     prefix: 'Meta_'
     tags: ['title','description','keywords']

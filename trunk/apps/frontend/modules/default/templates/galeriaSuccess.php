@@ -9,9 +9,11 @@
 <!--left start-->
 <div class="left">
   <h2><span class="black"><?php echo __("galeria_titulo izquierdo");?></span><span class="brown"><?php echo __("galeria_titulo derecho");?></span></h2>
+  <?php include_partial("default/socialButtons"); ?>
+  <br class="spacer" />
   <p class="darkgrey">
-      <?php echo __("galeria_texto");?>
-	</p>
+	<?php echo __("galeria_texto");?>
+  </p>
 </div>
 <!--left end-->
 <div class="clear"></div>

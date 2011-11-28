@@ -628,6 +628,11 @@ div.producto_link_back_container a{
   text-decoration: none;
 }
 
+div.producto_link_back_container {
+  float: left;
+  width: 50%;
+}
+
 /** Productos small **/
 div.producto_small_container {
 	float: left;
@@ -711,6 +716,10 @@ img {
 
 /*** Botoneras ***/
 
+.buttons_containers{
+  width: 100%;
+}
+
 .buttons_containers div{
   float: right;
   width: 62px;
@@ -719,3 +728,4 @@ img {
 .buttons_containers div.twitter{
   margin-right: 36px !important;
 }
+

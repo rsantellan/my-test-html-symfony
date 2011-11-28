@@ -4,10 +4,13 @@
   use_javascript("productoBig.js", "last");
   use_stylesheet("cloud-zoom.css");
 ?>
-
+<div class="producto_social_buttons_containers">
+  <?php include_partial("default/socialButtons"); ?>
+</div>
+<br class="spacer" />
 <div class="div_contenedor_producto">
   <h3><?php echo $producto->getName(); ?></h3>
-
+  
   <div class="div_imagenes_derecha">
     <div class="imagen_grande">
 	  <?php
