@@ -713,9 +713,7 @@ img {
 
 .buttons_containers div{
   float: right;
-  width: 12%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 62px;
 }
 
 .buttons_containers div.twitter{
