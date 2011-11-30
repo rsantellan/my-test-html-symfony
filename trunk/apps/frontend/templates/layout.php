@@ -10,7 +10,9 @@
         ?>
         <?php include_stylesheets() ?>
         <?php include_javascripts() ?>
+ 
     </head>
+    
     <body>
         <!--container start -->
         <div class="container">
