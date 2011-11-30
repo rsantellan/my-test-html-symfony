@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-25T16:04:14Z" product-name="messages">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-11-30T09:06:37Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
@@ -155,7 +155,7 @@
       </trans-unit>
       <trans-unit id="30">
         <source>quienesSomos_texto</source>
-        <target>&lt;strong&gt;Naturalia,&lt;/strong&gt; consectetuer adipiscing elit. Nunc tincidu,  eros vitae ncdut tempus, odio                     Maecenas convallis, enim sed volutpat volutpat,  libero risus porttitor risus, id aliquam justo sapien a libero.                      Praesent interdum augue sed nisl lacinia ut  ullamcorper elit blandit. Fusce felis lectus, mattis vel elementum  vitae,                      vestibulum vel lectus. Sed urna nunc, tempus vitae  lacinia in, mollis non risus. In velit urna, mattis a consectetur ut,                      tincidunt ut lectus. Sed non magna libero. Mauris  ullamcorper tempus mi, ut ultricies erat tincidunt id.                      Integer ut lorem at lacus cursus tempus ac id nibh.  Suspendisse nulla elit, mollis vitae blandit nec, eleifend ut felis.                      Mauris risus ante, tempor sagittis consequat  vestibulum, lacinia nec lectus. Donec eu lectus pharetra leo accumsan  congue.                      Mauris elit ligula, pharetra ac elementum in,  viverra a urna. Praesent malesuada, nulla eget venenatis cursus, eros                      magna porta dolor, accumsan fringilla augue velit  non augue.</target>
+        <target>Naturalia, consectetuer adipiscing elit. Nunc tincidu,  eros vitae ncdut tempus, odio                     Maecenas convallis, enim sed volutpat volutpat,  libero risus porttitor risus, id aliquam justo sapien a libero.                      Praesent interdum augue sed nisl lacinia ut  ullamcorper elit blandit. Fusce felis lectus, mattis vel elementum  vitae,                      vestibulum vel lectus. Sed urna nunc, tempus vitae  lacinia in, mollis non risus. In velit urna, mattis a consectetur ut,                      tincidunt ut lectus. Sed non magna libero. Mauris  ullamcorper tempus mi, ut ultricies erat tincidunt id.                      Integer ut lorem at lacus cursus tempus ac id nibh.  Suspendisse nulla elit, mollis vitae blandit nec, eleifend ut felis.                      Mauris risus ante, tempor sagittis consequat  vestibulum, lacinia nec lectus. Donec eu lectus pharetra leo accumsan  congue.                      Mauris elit ligula, pharetra ac elementum in,  viverra a urna. Praesent malesuada, nulla eget venenatis cursus, eros                      magna porta dolor, accumsan fringilla augue velit  non augue.  &lt;strong&gt;&lt;img style="display: block; margin-left: auto; margin-right: auto;" title="fad7f55033f77079dc4d29125f6a74d5.jpg" src="/images/L2pmaWxlYnJvd3Nlci9pbmljaW8vZmFkN2Y1NTAzM2Y3NzA3OWRjNGQyOTEyNWY2YTc0ZDUuanBnfHdoOjIwMC8yMDA%3D.jpg" alt="Imagen" width="200" height="200" /&gt;&lt;/strong&gt;</target>
         <note>es</note>
       </trans-unit>
       <trans-unit id="31">
