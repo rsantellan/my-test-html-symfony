@@ -1,0 +1,63 @@
+mdCategory:
+  actAs:
+    Timestampable: ~
+    mdI18nBehavior: ~
+<?php if( sfConfig::get( 'sf_plugins_category_attributes', false ) ):  ?>
+    MdAttributeBehavior: ~
+<?php endif; ?>
+<?php if( sfConfig::get( 'sf_plugins_category_media', false ) ):  ?>
+    mdMediaBehavior: ~
+<?php endif; ?>
+    I18n:
+      fields: [name]
+      actAs:
+        Sluggable: { fields: [name], uniqueBy: [lang, name, id] }
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    label:
+      type: string(255)
+      notnull: true
+      unique: true
+    name:
+      type: string(255)
+      notnull: true
+    object_class_name:
+      type: string(250)
+      notnull: true
+    md_category_parent_id:
+      type: integer(4)
+      notnull: false
+    priority:
+      type: integer(2)
+      default: 0
+  relations:
+    mdCategory:
+      local: md_category_parent_id
+      foreign: id
+      type: one
+
+mdCategoryObject:
+  options:
+    symfony:
+      form:   false
+      filter: false
+  actAs: [Timestampable]
+  columns:
+    object_id:
+      type: integer(4)
+      primary: true
+    md_category_id:
+      type: integer(4)
+      primary: true
+    object_class_name:
+      type: string(250)
+    priority:
+      type: integer(2)
+      default: 0
+  relations:
+    mdCategory:
+      local: md_category_id
+      onDelete: CASCADE

@@ -1,0 +1,41 @@
+Como activar un perfil por categoria:
+
+Pasos a seguir:
+
+Primero habilitar la variable en el setting.yml que esta en el config/ global: 
+  plugins_category_display : true
+  
+El paso siguiente es fijarse en la base de datos los id's de las
+categorias padre y los id's de los perfiles.
+
+En el app.yml del backend se le agrega los siguiente.
+
+    plugins_category_display:
+      0:
+        category_parent_id: 1
+        profile_id: 1
+      1:
+        category_parent_id: 2
+        profile_id: 1      
+      2:
+        category_parent_id: 3
+        profile_id: 1  
+  
+Siendo la categoria padre id y el profile id que se quiere.  
+
+
+=======================================================
+
+Variables de configuracion:
+
+- plugins_category_attribute
+- plugins_category_show_root
+- plugins_category_attributes
+- plugins_category_display
+- plugins_category_media
+- plugins_category_attributes_showLabel
+- plugins_category_attribute_color_picker
+- plugins_category_priority
+- plugins_category_by_elements
+- plugins_category_mono_level
+- 

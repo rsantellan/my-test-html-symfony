@@ -1,0 +1,1 @@
+<li class="tab" id="tab_li_<?php echo $mdCategory->getId();?>"><a id="tab_a_id_<?php echo $mdCategory->getId();?>" href="#cat_<?php echo $mdCategory->getId(); ?>"><?php echo $mdCategory->getName(); ?></a></li>

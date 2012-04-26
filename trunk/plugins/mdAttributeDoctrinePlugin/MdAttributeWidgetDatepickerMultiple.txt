@@ -1,0 +1,17 @@
+para usar en frontend hay que incluir
+
+use_plugin_javascript('mdAttributeDoctrinePlugin','datepicker/js/datepicker.js');
+use_plugin_javascript('mdAttributeDoctrinePlugin','datepicker/js/eye.js');
+use_plugin_javascript('mdAttributeDoctrinePlugin', 'datepicker/js/utils.js');
+use_plugin_javascript('mdAttributeDoctrinePlugin', 'datepicker/js/layout.js?ver=1.0.2');
+use_plugin_stylesheet('mdAttributeDoctrinePlugin', '../js/datepicker/css/datepicker.css');
+
+
+
+
+Para activarlo la inlusion de los javascripts en el Dynamic content de backend hay que setear en el settings.yml:
+
+plugins_dynamic_multiple_datepicker: true
+
+
+En Backend se usa como esta especificado en mdAttributeDoctrinePlugin/lib/widgets/mdWidgetFormDatepickerMultiple

@@ -1,0 +1,11 @@
+Instalacion
+
+Se tiene una bandera que debera configurarse en el settings.yml si se quiere instalar la funcionalidad
+de fisrt login. La variable es: plugins_auth_first_login: true
+
+Modo de Uso
+
+Para la funcionalidad de firstLogin:
+
+- Simplemente hay que agregar esta linea en el actions del homepage del sitio u a donde se redirija una
+  ves que se loguea el usuario: mdFirstLoginManager::getInstance()->init()
