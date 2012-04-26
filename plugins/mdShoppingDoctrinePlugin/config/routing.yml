@@ -1,0 +1,9 @@
+catalogue:
+  url: /catalogue/:id
+  param: { module: catalogue, action:index }
+  requirements:
+    id: \d+
+
+mdProducts:
+  url: /productos.html
+  param: { module: mdProduct, action: index}

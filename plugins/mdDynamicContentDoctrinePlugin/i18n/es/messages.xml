@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2010-10-14T14:13:20Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="2">
+        <source>mdDynamicContentDoctrine_text_add</source>
+        <target>Agregar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>mdDynamicContentDoctrine_text_backendFilter</source>
+        <target>Filtros</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>mdDynamicContentDoctrine_text_edit</source>
+        <target>Editar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>mdDynamicContentDoctrine_text_publishAt</source>
+        <target>Visible desde</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>mdDynamicContentDoctrine_text_cancel</source>
+        <target>Cancelar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>mdDynamicContentDoctrine_text_save</source>
+        <target>Guardar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>mdDynamicContentDoctrine_text_close</source>
+        <target>Cerrar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>mdDynamicContentDoctrine_text_delete</source>
+        <target>Eliminar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>mdDynamicContentDoctrine_text_addProfile</source>
+        <target>Agregar perfil</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>mdDynamicContentDoctrine_text_confirmRemove</source>
+        <target>¿Esta seguro de querer eliminar?</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>mdDynamicContentDoctrine_text_publishUpTo</source>
+        <target>Visible hasta</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>mdDynamicContentDoctrine_text_selectProfile</source>
+        <target>Seleccionar un perfil</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>mdDynamicContent_text_createDynamic</source>
+        <target>Cree el contenido que desee. Una vez creado podra asociarle imagenes, videos, flash o lo que usted prefiera. Tambien podra etiquetarlo seleccionando la opcion categorias</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>mdDynamicContentDoctrine_text_mdCategory</source>
+        <target>Categoria</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>mdDynamicContentDoctrine_text_search</source>
+        <target>Buscar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>mdDynamicContentDoctrine_text_deleteContent</source>
+        <target>Eliminar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>mdDynamicContentDoctrine_text_isVisible</source>
+        <target>Es visible</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>mdDynamicContentDoctrine_text_backendTitle</source>
+        <target>Elementos Dinamicos</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>mdDynamicContentDoctrine_text_buscar palabras en los contenidos</source>
+        <target>Por palabras:</target>
+        <note>es</note>
+      </trans-unit>      
+    </body>
+  </file>
+</xliff>

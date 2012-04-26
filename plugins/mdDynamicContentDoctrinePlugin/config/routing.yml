@@ -1,0 +1,3 @@
+mdDynamicContent:
+  url: /content.html
+  param: { module: mdDynamicContent, action: index}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2010-07-28T15:41:08Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>mdImageFileGallery_text_mdUploaderBottomValue</source>
+        <target>Click to upload</target>
+        <note>en</note>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>mdImageFileGallery_text_imagesQuantity</source>
+        <target>Quantity</target>
+        <note>en</note>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>mdImageFileGallery_text_imagesAdd</source>
+        <target>Add</target>
+        <note>en</note>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>mdImageFileGallery_text_title</source>
+        <target>Image gallery</target>
+        <note>en</note>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>mdImageFileGallery_text_uploadDone</source>
+        <target>Upload complete</target>
+        <note>en</note>
+        <target/>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>mdImageFileGallery_text_confirmRemove</source>
+        <target>Confirm remove</target>
+        <note>en</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

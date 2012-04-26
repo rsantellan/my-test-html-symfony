@@ -1,0 +1,11 @@
+<?php if( sfConfig::get( 'sf_plugins_auth_first_login', false ) ):  ?>
+mdFirstAccess:
+  columns:
+    md_user_id:
+      primary: true
+      notnull: true
+      type: integer(4)
+    access_ip:
+      notnull: true
+      type: string(128)
+<?php endif;  ?>

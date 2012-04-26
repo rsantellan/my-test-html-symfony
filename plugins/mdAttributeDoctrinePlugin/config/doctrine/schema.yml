@@ -1,0 +1,155 @@
+mdProfile:
+  actAs: 
+    Timestampable: ~ 
+    mdI18nBehavior: ~
+    I18n:
+      fields: [display]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(32)
+      notnull: true
+    object_class_name:
+      type: string(128)
+      notnull: true
+    display:
+      type: string(100)
+      notnull: true
+
+mdAttribute:
+  actAs:
+    I18n:
+      fields: [label]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(100)
+      notnull: true
+    label:
+      type: string(100)
+      notnull: true
+    type_class:
+      type: string(100)
+      notnull: true
+    requiered:
+      type: integer(1)
+      default: 0
+      notnull: true
+    translated:
+      type: boolean
+      default: 0
+      notnull: true      
+
+mdProfileAttribute:
+  columns:
+    md_attribute_id:
+      type: integer(4)
+      primary: true
+    md_profile_id:
+      type: integer(4)
+      primary: true
+  relations:
+    mdAttribute:
+      local: md_attribute_id
+      foreign: id
+      type: one
+    mdProfile:
+      local: md_profile_id
+      foreign: id
+      type: one
+
+mdAttributeValue:
+  actAs:
+    I18n:
+      fields: [name]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(100)
+      notnull: true
+    md_attribute_id:
+      type: int(4)
+      notnull: true
+  relations:
+    mdAttribute:
+      local: md_attribute_id
+      foreign: id
+      type: one
+
+mdAttributeObject:
+  actAs:
+    I18n:
+      fields: [value]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    object_id:
+      type: integer(4)
+      notnull: true
+    object_class_name:
+      type: string(128)
+      notnull: true
+    md_attribute_id:
+      type: int(4)
+      notnull: true
+    md_attribute_value_id:
+      type: int(4)
+      notnull: false
+    value_non_translated:
+      type: text
+      notnull: false
+    value:
+      type: string(1024)
+      notnull: true
+    md_profile_id:
+      type: int(4)
+      notnull: true
+  relations:
+    mdAttribute:
+      local: md_attribute_id
+      foreign: id
+      type: one
+    mdAttributeValue:
+      local: md_attribute_value_id
+      foreign: id
+      type: one
+    mdProfile:
+      local: md_profile_id
+      foreign: id
+      type: one
+
+mdProfileObject:
+  columns:
+    id:
+      type: integer(4)
+      notnull: true
+      primary: true
+      autoincrement: true
+    object_id:
+      type: integer(4)
+      notnull: true
+    object_class_name:
+      type: string(64)
+      notnull: true
+    md_profile_id:
+      type: integer(4)
+      notnull: true
+    active:
+      type: boolean
+      notnull: true
+  relations:
+    mdProfile:
+      local: md_profile_id
+      foreign: id
+      type: one

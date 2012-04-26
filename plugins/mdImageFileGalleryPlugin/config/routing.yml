@@ -1,0 +1,23 @@
+mdImageFileGallery:
+  url:   /gallery/:cat.html/:page
+  param: { module: mdImageFileGallery, action: index, page: 1, display: true }
+
+mdImageFileGalleryDownload:
+  url:   /mdImageFileGallery/download/:file
+  param: { module: mdImageFileGallery, action: download }
+  
+mdImageFileGalleryAdmin:
+  url:   /imageGallery.html
+  param: { module: mdImageFileGallery, action: admin }
+
+mdImageFileGalleryUploader:
+  url:   /mdImageFileGallery/uploader/
+  param: { module: mdImageFileGallery, action: uploader }
+
+mdImageFileGalleryUpload:
+  url:   /mdImageFileGallery/upload/
+  param: { module: mdImageFileGallery, action: uploadGallery }
+
+mdImageFileGalleryDelete:
+  url:   /mdImageFileGallery/delete/
+  param: { module: mdImageFileGallery, action: delete }

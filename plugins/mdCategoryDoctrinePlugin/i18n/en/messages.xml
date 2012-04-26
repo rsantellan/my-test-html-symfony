@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2010-07-28T15:41:08Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>mdCategoryDoctrine_text_backendTitle</source>
+        <target>Categories</target>
+        <note>en</note>        
+      </trans-unit>
+      <trans-unit id="2">
+        <source>mdCategoryDoctrine_text_agregar</source>
+        <target>Add</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="3">
+        <source>mdCategoryDoctrine_text_title</source>
+        <target>Categories</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="4">
+        <source>mdCategoryDoctrine_text_edit</source>
+        <target>Edit</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="5">
+        <source>mdCategoryDoctrine_text_name</source>
+        <target>Name</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="6">
+        <source>mdCategoryDoctrine_text_parentName</source>
+        <target>Parent Category</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="7">
+        <source>mdCategoryDoctrine_text_description</source>
+        <target>Description</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="8">
+        <source>mdCategoryDoctrine_text_close</source>
+        <target>Close</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="9">
+        <source>mdCategoryDoctrine_text_confirmDelete</source>
+        <target>Are you sure you want to delete?</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="10">
+        <source>mdCategoryDoctrine_text_delete</source>
+        <target>DELETE</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="11">
+        <source>mdCategoryDoctrine_text_cancel</source>
+        <target>CANCEL</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="12">
+        <source>mdCategoryDoctrine_text_save</source>
+        <target>SAVE</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="13">
+        <source>mdCategoryDoctrine_text_selectCategoryToAssociate</source>
+        <target>Select a category to associate</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="14">
+        <source>mdCategoryDoctrine_text_apply</source>
+        <target>Apply</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="15">
+        <source>mdCategoryDoctrine_text_addCategory</source>
+        <target>Add Category</target>
+        <note>en</note>  
+      </trans-unit>
+      <trans-unit id="16">
+        <source>mdCategoryDoctrine_text_noCategoryException</source>
+        <target>The first category should be inserted with a fixture. To see an example view the readme.txt file of the plugin</target>
+        <note>es</note>  
+      </trans-unit>
+      <trans-unit id="17">
+        <source>mdCategoryDoctrine_text_helpShowLabel</source>
+        <target></target>
+        <note>en</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

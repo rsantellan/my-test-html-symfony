@@ -1,0 +1,37 @@
+mdDynamicContent:
+  actAs:
+    mdContentBehavior: ~
+    mdAttributeBehavior: ~
+<?php if( sfConfig::get( 'sf_plugins_dynamic_media', false ) ):  ?>
+    mdMediaBehavior: ~
+<?php endif; ?>
+<?php if( sfConfig::get( 'sf_plugins_dynamic_category', false ) ):  ?>
+    mdCategoryBehavior: ~
+<?php endif; ?>
+<?php if( sfConfig::get( 'sf_plugins_dynamic_commentable', false ) ):  ?>
+    Commentable: ~
+<?php endif; ?>
+<?php if( sfConfig::get( 'sf_plugins_dynamic_feature', false ) ):  ?>
+    MdFeatureBehavior: ~
+<?php endif; ?>
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    publish_at:
+      type: timestamp
+    publish_up_to:
+      type: timestamp
+    type_name:
+      type: string(128)
+      notnull: true
+      default: 'dinamico'
+    priority:
+      type: integer(2)
+      default: 0
+    is_public:
+      type: boolean
+      default: 1
+      notnull: true

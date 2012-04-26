@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2010-08-27T15:03:40Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>mdFileBrowserTiny_text_thumbnails</source>
+        <target>Thumbnails</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>mdFileBrowserTiny_text_lista</source>
+        <target>Lista</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>mdFileBrowserTiny_text_subir</source>
+        <target>Subir</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>mdFileBrowserTiny_text_alertBorrarImagen</source>
+        <target>Estás seguro que deseas eliminar esta imagen ?</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>mdFileBrowserTiny_text_noArchivosEncontrados</source>
+        <target>No se han encontrado archivos.</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>mdFileBrowserTiny_text_crearDirectorio</source>
+        <target>Crear directorio</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>mdFileBrowserTiny_text_directorios</source>
+        <target>Directorios</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>mdFileBrowserTiny_text_noExisteDirectorio</source>
+        <target>No existe el directorio</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>mdFileBrowserTiny_textoAlternativo</source>
+        <target>Texto alternativo</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>mdFileBrowserTiny_alineacion</source>
+        <target>Alineación</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>mdFileBrowserTiny_ninguna</source>
+        <target>Ninguna</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>mdFileBrowserTiny_izquierda</source>
+        <target>Izquierda</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>mdFileBrowserTiny_centrar</source>
+        <target>Centrar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>mdFileBrowserTiny_derecha</source>
+        <target>Derecha</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>mdFileBrowserTiny_tamano</source>
+        <target>Tamaño</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>mdFileBrowserTiny_ancho</source>
+        <target>Ancho</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>mdFileBrowserTiny_alto</source>
+        <target>Alto</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>mdFileBrowserTiny_text_subirArchivo</source>
+        <target>Subir Archivo</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>mdFileBrowserTiny_text_archivoPermitidos</source>
+        <target>Archivos Permitidos</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>mdFileBrowserTiny_text_extensiones</source>
+        <target>jpg, gif,  png, PDF, Word, PowerPoint y Excel</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>mdFileBrowserTiny_text_archivo</source>
+        <target>Archivo</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>mdFileBrowserTiny_text_directorio</source>
+        <target>Directorio</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>mdFileBrowserTiny_text_seleccioneDirectorio</source>
+        <target>Seleccionar directorio</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>mdFileBrowserTiny_text_enviar</source>
+        <target>Enviar</target>
+        <note>es</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

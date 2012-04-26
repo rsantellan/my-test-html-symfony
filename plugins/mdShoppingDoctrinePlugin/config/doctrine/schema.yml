@@ -1,0 +1,190 @@
+mdUnit:
+  actAs:
+    mdI18nBehavior: ~
+    I18n:
+      fields: [name]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(100)
+      notnull: true
+    symbol:
+      type: string(100)
+      notnull: true
+
+mdUnitConvertion:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    from_unit:
+      type: integer(4)
+      notnull: true
+    to_unit:
+      type: integer(4)
+      notnull: true
+    ratio:
+      type: float()
+      notnull: true
+  relations:
+    mdUnit:
+      local: from_unit
+      foreign: id
+      type: one
+    mdUnit_2:
+      class: mdUnit
+      local: to_unit
+      foreign: id
+      type: one
+
+mdCurrency:
+  actAs:
+    Timestampable: ~
+    mdI18nBehavior: ~
+    I18n:
+      fields: [name]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+    code:
+      type: string(16)
+      unique: true
+    symbol:
+      type: string(100)
+      notnull: true
+
+mdCurrencyConvertion:
+  columns:
+    currency_from:
+      primary: true
+      type: integer(4)
+      notnull: true
+    currency_to:
+      primary: true
+      type: integer(4)
+      notnull: true
+    ratio:
+      type: double(18,8)
+      notnull: true
+  relations:
+    mdCurrencyFrom:
+      class: mdCurrency
+      local: currency_from
+      foreign: id
+      type: one
+    mdCurrencyTo:
+      class: mdCurrency
+      local: currency_to
+      foreign: id
+      type: one
+
+mdProduct:
+  actAs:
+    MdContentBehavior: ~
+    mdI18nBehavior: ~
+    MdSaleableBehavior: ~
+<?php if( sfConfig::get( 'sf_plugins_shopping_attribute', false ) ):  ?>
+    MdAttributeBehavior: ~
+<?php endif; ?>
+<?php if( sfConfig::get( 'sf_plugins_shopping_feature', false ) ):  ?>
+    mdFeatureBehavior: ~
+<?php endif; ?>
+<?php if( sfConfig::get( 'sf_plugins_shopping_media', false ) ):  ?>
+    mdMediaBehavior: ~
+<?php endif; ?>
+<?php if( sfConfig::get( 'sf_plugins_shopping_category', false ) ):  ?>
+    mdCategoryBehavior: ~
+<?php endif; ?>
+    I18n:
+        fields: [name]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    name: { type: string(255), notnull: true}
+    price: { type: double, notnull: true }
+    quantity:
+      type: integer(4)
+      default: '1'
+      notnull: true
+    tax:
+      type: float()
+      notnull: true
+      default: 0
+    is_public:
+      type: boolean
+      default: 1
+      notnull: true
+    md_unit_id:
+      type: integer(4)
+      notnull: true
+    md_currency_id:
+      type: integer(4)
+      notnull: true
+    is_multiple:
+      type: boolean
+      default: 0
+      notnull: true
+    weight:
+      type: float(6,2)
+      default: 0
+    volumetric_weight:
+      type: float(6,2)
+      default: 0      
+    priority:
+      type: integer(2)
+      default: 0
+  relations:
+    mdUnit:
+      local: md_unit_id
+      foreign: id
+      type: one
+    mdCurrency:
+      local: md_currency_id
+      foreign: id
+      type: one
+
+
+#mdShopping
+
+MdSaleable:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    object_class:
+      type: string(250)
+      notnull: true
+    object_id:
+      type: integer(4)
+      notnull: true
+
+MdSaleableRelation:
+  columns:
+    md_saleable_parent_id:
+      type: integer(4)
+      primary: true
+    md_saleable_son_id:
+      type: integer(4)
+      primary: true
+  relations:
+    MdSaleable:
+      local: md_saleable_parent_id
+      foreign: id
+      type: one
+    MdSaleable_2:
+      class: MdSaleable
+      local: md_saleable_son_id
+      foreign: id
+      type: one

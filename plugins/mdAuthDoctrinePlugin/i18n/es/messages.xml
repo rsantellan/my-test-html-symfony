@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2010-07-28T16:17:04Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>mdAuthDoctrine_text_remember</source>
+        <target>Recordarme</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>mdAuthDoctrine_text_changeEmailCorrect</source>
+        <target>El mail se cambio correctamente</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>mdAuthDoctrine_text_close</source>
+        <target>cerrar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>mdAuthDoctrine_text_changePasswordCorrect</source>
+        <target>Se cambio correctamente la contraseña</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>mdAuthDoctrine_text_username</source>
+        <target>Usuario</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>mdAuthDoctrine_text_password</source>
+        <target>Contraseña</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>mdAuthDoctrine_text_signIn</source>
+        <target>login</target>
+        <note>es</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

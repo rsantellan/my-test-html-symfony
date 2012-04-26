@@ -1,0 +1,3 @@
+mdCategoryAdmin:
+  url:   /categoryAdmin.html
+  param: { module: mdCategory, action: index }
