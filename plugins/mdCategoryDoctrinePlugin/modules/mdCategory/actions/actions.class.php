@@ -56,7 +56,7 @@ class mdCategoryActions extends sfActions
         $newMdCategory->setObjectClassName($mdCategory->getObjectClassName());
 
         $categoryProfileDisplay = sfConfig::get( 'app_plugins_category_display', null );
-        $hasProfile = false;
+        $hasProfile = sfConfig::get( 'sf_plugins_category_attributes', false );
 
         if(!is_null($categoryProfileDisplay))
         {
@@ -68,17 +68,19 @@ class mdCategoryActions extends sfActions
                 $newMdCategory->addTmpArrayMdProfileId($categoryProfile['profile_id']);      
             }
           }
-          if ($hasProfile) 
-          {
-            $newMdCategory->setEmbedProfile(true);
-          } 
-          else 
-          {
-            $newMdCategory->setEmbedProfile(false);
-          }
+        }
+        
+        if ($hasProfile) 
+        {
+          $newMdCategory->setEmbedProfile(true);
+        } 
+        else 
+        {
+          $newMdCategory->setEmbedProfile(false);
         }
 
-				$newMdCategory->setMdCategoryParentId($categoryRootId);
+		
+        $newMdCategory->setMdCategoryParentId($categoryRootId);
 
         $form = new mdCategoryForm($newMdCategory);
 

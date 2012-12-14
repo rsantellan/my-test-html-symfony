@@ -13,4 +13,7 @@
 class mdCategory extends PluginmdCategory
 {
 
+  public function retrieveDefault() {
+    return "/images/logo.jpg";
+  }
 }

@@ -27,9 +27,9 @@ all:
 
 #########Categorias########
 # Para habilitar la media de las categorias
-    plugins_category_media: false
+    plugins_category_media: true
 # Para habilitar los atributos de las categorias
-    plugins_category_attributes: false
+    plugins_category_attributes: true
 # Para habilitar el widget de color picker en las categorias
     plugins_category_attribute_color_picker: false
 # Prioridades para las categorias

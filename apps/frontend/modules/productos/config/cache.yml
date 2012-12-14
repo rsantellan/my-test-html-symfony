@@ -13,3 +13,7 @@ _productoBigInfo:
 _productoBusqueda:
   enabled:     false
   lifetime:    21600
+  
+_categoriaIndexInfo:
+  enabled:     true
+  lifetime:    21600

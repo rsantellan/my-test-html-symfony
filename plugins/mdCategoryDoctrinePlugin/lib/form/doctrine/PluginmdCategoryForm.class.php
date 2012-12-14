@@ -82,7 +82,6 @@ abstract class PluginmdCategoryForm extends BasemdCategoryForm
         {
 			
             $mdAttributesForms = $this->getObject ()->retrieveAllAttributesForm ();
-
             $myForm = new sfForm();
 
             foreach($mdAttributesForms as $tmpForm)
@@ -113,10 +112,19 @@ abstract class PluginmdCategoryForm extends BasemdCategoryForm
 
         $mdCategory = parent::save($con);
 
+        $save_again = true;
+        $mdCategory->setSlug(mdBasicFunction::slugify($mdCategory->getName()));
+        
         if(!$mdCategory->getLabel())
         {
             $mdCategory->setLabel(mdBasicFunction::slugify($mdCategory->getName()));
             $mdCategory->save();
+            $save_again = false;
+        }
+        
+        if($save_again)
+        {
+          $mdCategory->save();
         }
 
         if( sfConfig::get( 'sf_plugins_category_attributes', false ) )
