@@ -10,6 +10,12 @@
 	  echo __("productos_bienvenidos");
 	  ?>
 	</p>
+    <?php foreach($categorias as $categoria): ?>
+    <?php include_partial('categoriaIndexInfo', array('categoria' => $categoria)); ?>
+    
+      <?php //var_dump($categoria->toArray());?>
+    
+    <?php endforeach; ?>
 </div>
 <!--left end-->
 

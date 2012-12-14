@@ -88,6 +88,8 @@ abstract class BasemdCategory extends sfDoctrineRecord
 
         $timestampable0 = new Doctrine_Template_Timestampable();
         $mdi18nbehavior0 = new mdI18nBehavior();
+        $mdattributebehavior0 = new MdAttributeBehavior();
+        $mdmediabehavior0 = new mdMediaBehavior();
         $i18n0 = new Doctrine_Template_I18n(array(
              'fields' => 
              array(
@@ -109,6 +111,8 @@ abstract class BasemdCategory extends sfDoctrineRecord
         $i18n0->addChild($sluggable1);
         $this->actAs($timestampable0);
         $this->actAs($mdi18nbehavior0);
+        $this->actAs($mdattributebehavior0);
+        $this->actAs($mdmediabehavior0);
         $this->actAs($i18n0);
     }
 }

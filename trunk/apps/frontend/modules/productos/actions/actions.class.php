@@ -27,6 +27,7 @@ class productosActions extends sfActions
       $this->getUser()->setFlash("categoryCacheKey", "-");
 	  $params = array();
 	  mdMetaTagsHandler::addMetas($this,'productos', array('params'=>$params));
+      $this->categorias = mdCategoryHandler::retrieveAllParentCategoriesOfClass("mdProduct");
   }
   
   public function executeCategoria(sfWebRequest $request)
