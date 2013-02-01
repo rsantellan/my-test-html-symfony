@@ -1,0 +1,11 @@
+/**** Galeria ***/
+
+#slider ul, #slider li{
+  list-style-type: none;
+}
+
+#slider, #slider li{ 
+	width:741px;
+	height:370px;
+	overflow:hidden; 
+}

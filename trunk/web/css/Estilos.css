@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#contenedor {
+	
+	height:772px;
+	width:993px;
+	}
+	
+#cabezal {
+	width:993px;
+	}
+	
+	
+#Menu{
+	align:center;
+	width:915px;
+	height:50px;
+	padding-left:30px;
+	}
+
+
+
+h1 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#FF0000;
+	font-style:italic;
+	}
+	
+h2 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-seriff;
+	font-size:11px;
+	color: #FF0000;
+	font-style: bold;
+	}	
+	
+p  {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#000000;
+	line-height: 120%
+	}
+	
+p2	{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #999999;
+	font-size: 11px;
+	}
+	
+#caja1{
+	margin-top:35px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-left:55px;
+	margin-left:40px;
+	width:418px;
+	float:left;
+	background-color: transparent;	
+	}
+
+#caja2{
+	margin-top:25px;
+	margin-left:25px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-left:5px;
+	width:350px;
+	float:left;
+	background-color: transparent;	
+	}
+
+#caja3{
+	margin-top: 35px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 850px;
+	color: #999999;
+	font-size: 8px;
+	height: 340px;
+	float: left;
+	margin-left: 40px;
+	}
+
+
+#caja4{
+	margin-top:25px;
+	margin-left:15px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-left:5px;
+	width:301px;
+	height: 350px;
+	float:left;
+	background-image: url(../images/loc-planta.jpg);
+	}
+	
+#caja5{
+	margin-top:25px;
+	margin-left:15px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-left:5px;
+	width:301px;
+	height: 350px;
+	float:left;
+	background-image: url(../images/loc-colonia.jpg);	
+	}
+	
+#caja6{
+	margin-top:25px;
+	margin-left:15px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-left:5px;
+	width:301px;
+	height: 350px;
+	float:left;
+	background-image: url(../images/loc-mdeo.jpg);	
+	}
+
+#pie{
+	padding-left:45px;
+	margin-top:85px;
+	padding-top:50px;
+}
+
+form{
+	padding:10px;
+	}
