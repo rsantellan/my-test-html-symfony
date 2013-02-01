@@ -31,6 +31,10 @@ quienesSomos:
   url:   /quienes-somos.html
   param: { module: default, action: quienesSomos }
 
+historia:
+  url:   /historia.html
+  param: { module: default, action: quienesSomos }
+
 galeria:
   url:   /galeria.html
   param: { module: default, action: galeria }

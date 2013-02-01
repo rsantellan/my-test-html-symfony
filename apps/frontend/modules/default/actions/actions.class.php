@@ -23,11 +23,13 @@ class defaultActions extends sfActions
     
     public function executeLocation(sfWebRequest $request)
     {
+        /*
         $this->locales = mdDynamicContentHandler::retrieveAllMdDynamicContentOfType("locales", true);
         
         $this->puntosVenta = mdDynamicContentHandler::retrieveAllMdDynamicContentOfType("puntoVenta", true);
-        
+        */
         $params = array();
+        
         mdMetaTagsHandler::addMetas($this,'locacion', array('params'=>$params));
     }
     
