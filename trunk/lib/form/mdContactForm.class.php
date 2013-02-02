@@ -6,7 +6,8 @@ class mdContactForm extends sfForm
     $this->setWidgets(array(
         'nombre'    => new sfWidgetFormInput(array(), array('label' => 'Nombre')),
         'mail'      => new sfWidgetFormInput(array(), array('label' => 'E-mail')),
-        'telefono'  => new sfWidgetFormInput(array(), array('label' => 'Teléfono')),
+        'apellido'  => new sfWidgetFormInput(array(), array('label' => 'Apellido')),
+        'asunto'  => new sfWidgetFormInput(array(), array('label' => 'Asunto')),
         'comentario'=> new sfWidgetFormTextarea(array(), array('label' => 'Comentario')),
     ));
 
@@ -27,7 +28,8 @@ class mdContactForm extends sfForm
     $this->setValidators(array(
         'nombre'    => new sfValidatorString(array('required' => true),$error_message),
         'mail'      => new sfValidatorEmail(array('required' => true),$error_message),
-        'telefono'  => new sfValidatorString(array('required' => false),$error_message),
+        'apellido'  => new sfValidatorString(array('required' => false),$error_message),
+        'asunto'  => new sfValidatorString(array('required' => false),$error_message),
         'comentario'=> new sfValidatorString(array('required' => true),$error_message),
     ));
 

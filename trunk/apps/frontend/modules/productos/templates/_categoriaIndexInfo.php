@@ -1,13 +1,20 @@
-<h5><?php echo $categoria->getName();?></h5>
-<div>
-  <?php foreach($categoria->getSonsCategories() as $child): ?>
-  <div style="float:left; padding-left: 5px; text-align: center">
-    <strong><?php echo $child->getName();?></strong>
+<?php
+$profile = mdProfileHandler::getInstance($categoria)->loadProfile('categorias');
+?>
+<div style="float:left !important; width: 352px !important; padding-right: 10px !important;">
+<p align="left">
+    <font size="2"font color="#FF0000" font face="Trebuchet MS, Arial, Helvetica, sans-serif">
+        <b><?php echo $categoria->getName();?> -</b>
+    </font>
+    <font color="#000000">
+        
+    <b><?php echo $profile->getValue("descripcion"); ?></b>
     <br/>
-    <a href="<?php echo url_for('categorias', $child); ?>">
-      <img class="category_img" src="<?php echo $child->retrieveAvatar(array(mdWebOptions::WIDTH => 100, mdWebOptions::HEIGHT => 100, mdWebOptions::CODE => mdWebCodes::RESIZECROP)); ?>" alt="<?php echo $child->getName(); ?>"/>
-    </a>
-  </div>
-  <?php endforeach; ?>
+    <ul> 
+        <?php foreach($categoria->getSonsCategories() as $child): ?>
+            <li><?php echo $child->getName();?></li>
+        <?php endforeach; ?>
+    </ul>
+    </font>
+</p>
 </div>
-<div class="clear"></div>
