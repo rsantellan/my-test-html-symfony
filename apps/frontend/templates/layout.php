@@ -39,7 +39,7 @@
               <?php if(has_slot('productos')): ?>
                   <?php echo image_tag("menu-r-productos.png", array("alt" => __("menu_productos"), "width" => 127, "height"=>29)); ?>
               <?php else: ?>
-                  <a href="<?php echo url_for("@quienesSomos");?>">
+                  <a href="<?php echo url_for("@productos");?>">
                     <?php echo image_tag("menu-v-productos.png", array("alt" => __("menu_productos"), "width" => 127, "height"=>29)); ?>
                   </a>
               <?php endif; ?>

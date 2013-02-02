@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2013-02-01T14:44:39Z" product-name="messages">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2013-02-02T10:43:03Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
@@ -278,40 +278,7 @@
       </trans-unit>
       <trans-unit id="52">
         <source>productos_bienvenidos</source>
-        <target>&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="text-decoration: underline; font-size: medium;"&gt;&lt;strong&gt;Granja Naturalia cuenta con una amplia gama de quesos:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt; &lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;strong&gt;Linea Delicatessen -  &lt;/strong&gt;&lt;span style="font-weight: normal;"&gt;Productos de excelencia con sabores lacticos interesantes, que deleitan&lt;/span&gt;&lt;span style="color: #000000;"&gt;&lt;span style="font-size: medium;"&gt;&lt;span lang="es-UY"&gt;&lt;span style="font-weight: normal;"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="color: #000000;"&gt;&lt;span lang="es-UY"&gt;&lt;span style="font-weight: normal;"&gt;el paladar.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="color: #000000;"&gt;&lt;span lang="es-UY"&gt;&lt;span style="font-weight: normal;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="color: #000000;"&gt;&lt;span lang="es-UY"&gt;&lt;span style="font-weight: normal;"&gt;Emmenthal&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="color: #000000;"&gt;&lt;span lang="es-UY"&gt;&lt;span style="font-weight: normal;"&gt;Gruyere&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="color: #000000;"&gt;&lt;span lang="es-UY"&gt;&lt;span style="font-weight: normal;"&gt;Cacio Cavallo&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="color: #000000;"&gt;&lt;span lang="es-UY"&gt;&lt;span style="font-weight: normal;"&gt;Mozzarella Fresca&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt; &lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt; &lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;strong&gt;Linea Premium&lt;/strong&gt; -  &lt;span style="font-weight: normal;"&gt;Esta linea ofrece productos ideales para una picada, un asado o para pastas, sus sabores son inconfundibles.&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="font-weight: normal;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; Colonia&lt;/p&gt;
-&lt;p&gt;Maasdam&lt;/p&gt;
-&lt;p&gt;Parmesano&lt;/p&gt;
-&lt;p&gt;Provolone&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;strong&gt;Linea saludable &lt;/strong&gt;&lt;span style="font-weight: normal;"&gt;Estos productos tienen las cualidades de ser saludables sin perder el rico sabor de nuestros quesos. &lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="font-weight: normal;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="font-weight: normal;"&gt;Magros con sal y sin sal&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="font-weight: normal;"&gt;Colonia sin sal&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt; &lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;strong&gt;Linea Tradicional - &lt;/strong&gt;&lt;span style="font-weight: normal;"&gt;En esta linea se pueden encontrar productos ideales para el consumo diario y para uso de la cocina gourmet. Sus sabores y cremosidad son exquisitos!&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="font-weight: normal;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="font-weight: normal;"&gt;Dambo&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="font-weight: normal;"&gt;Cuartirolo&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="font-weight: normal;"&gt;Muzzarella&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="font-weight: normal;"&gt;Fontina&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="font-weight: normal;"&gt;Pategras&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="font-weight: normal;"&gt;Sbrinz&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="font-weight: normal;"&gt;Ricotta&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;span style="font-weight: normal;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin-bottom: 0cm;"&gt;&lt;strong&gt; &lt;/strong&gt;&lt;span style="font-weight: normal;"&gt; &lt;/span&gt;&lt;span style="color: #000000;"&gt;&lt;span style="font-size: medium;"&gt;&lt;span lang="es-UY"&gt;&lt;span style="font-weight: normal;"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="color: #000000;"&gt;&lt;span style="font-size: small;"&gt;&lt;span lang="es-UY"&gt;&lt;span style="font-weight: normal;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style="widows: 0; orphans: 0;" lang="es-UY"&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</target>
+        <target>GRANJA NATURALIA CUENTA CON UNA AMPLIA GAMA DE QUESOS</target>
         <note>es</note>
       </trans-unit>
       <trans-unit id="53">
@@ -511,6 +478,16 @@ Por favor intente mas tarde.</target>
         <source>historia_right text</source>
         <target>&lt;p align="justify"&gt;En el 2003 instalamos un centro de distribución en la capital con un showroom de venta al público, donde comenzamos a atender a varios clientes en Montevideo.
             A partir del año 2006 la fábrica fue habilitada para realizar exportaciones y en el 2009 se concretó la primer venta de nuestros productos a Brasil. Desde el 2007 Granja Naturalia ha sido galardonada con medallas de oro en diferentes concursos nacionales e internacionales. Los más premiados son el Petit Gruyere, Emmenthal y Colonia.&lt;/p&gt;</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>contacto_apellido</source>
+        <target>Apellido</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>contacto_asunto</source>
+        <target>Asunto</target>
         <note>es</note>
       </trans-unit>
     </body>
