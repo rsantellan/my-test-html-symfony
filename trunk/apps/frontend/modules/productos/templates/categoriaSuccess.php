@@ -6,6 +6,7 @@
     }
     
 ?>
+<?php include_partial("leftSideCategories");?>
 
 <!--left start-->
 <div class="left">
