@@ -1,13 +1,13 @@
 _categoriasMenu:
-  enabled:     true
+  enabled:     false
   lifetime:    21600
 
 _productoSmallInfo:
-  enabled:     true
+  enabled:     false
   lifetime:    21600
 
 _productoBigInfo:
-  enabled:     true
+  enabled:     false
   lifetime:    21600
 
 _productoBusqueda:
@@ -15,5 +15,5 @@ _productoBusqueda:
   lifetime:    21600
   
 _categoriaIndexInfo:
-  enabled:     true
+  enabled:     false
   lifetime:    21600

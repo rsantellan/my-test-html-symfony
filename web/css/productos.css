@@ -1,0 +1,176 @@
+/** Productos **/
+
+.search.right {
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+
+
+.left {
+    float: left;
+    width: 70%;
+}
+
+div.category_index_small_info{
+  float:left; 
+  padding-left: 10px; 
+  padding-right: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.right .productos_categories_list{
+    list-style: none;
+}
+
+.right .productos_categories_list li {
+    list-style: none;
+}
+
+.right .productos_categories_list li ul{
+  margin-left: 10px;
+}
+
+.right .productos_categories_list li ul.productos_categorias_sons_list_hidden{
+  display: none;
+}
+
+.right .productos_categories_list li a.cat_selected{
+  text-decoration: underline !important;
+}
+
+.right .productos_categories_list li a.cat_son_selected{
+  text-decoration: underline !important;
+}
+
+
+.right .productos_categories_list li a{
+    color: #000000;
+    display: block;
+    font: bold 11px/31px Arial,Helvetica,sans-serif;
+    text-decoration: none;
+}
+
+.left div.paginador{
+  margin-top: 15px;
+  text-align:justify;
+}
+
+.left div.paginador a.last_page_paginador{
+  float:left;
+}
+
+.left div.paginador a.next_page_paginador{
+  float:right;
+}
+
+.left div.paginador a{
+  text-decoration: none;
+}
+
+
+div.producto_link_back_container a{
+  text-decoration: none;
+}
+
+div.producto_link_back_container {
+  float: left;
+/*  width: 50%;*/
+}
+
+/** Productos small **/
+div.producto_small_container {
+	float: left;
+	margin-top: 15px;
+	margin-left: 5px;
+	text-align: center;
+}
+
+div.producto_small_container label{
+	font-weight: bold;
+}
+
+
+/** Producto big **/
+
+div.div_contenedor_producto{
+	width: 100%;
+	color: #660066 !important;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+div.div_contenedor_producto a{
+  text-decoration: none;
+  border: 0;
+}
+
+div.div_contenedor_producto h3{
+	text-align: center;
+	font-size: 30px;
+}
+
+div.div_contenedor_producto div.producto_upper_data{
+	width: 48%;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+}
+
+div.div_contenedor_producto div.div_imagenes_derecha{
+	width: 50%;
+	float: left;
+}
+
+div.div_contenedor_producto div.div_imagenes_derecha div.miniaturas{
+  margin-top: 10px;
+}
+
+div.div_contenedor_producto div.producto_upper_data div.div_datos_producto{
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+div.div_contenedor_producto div.producto_lower_data div.div_datos_producto{
+  width: 45%;
+  margin-bottom: 15px;
+}
+
+
+div.div_contenedor_producto div.div_datos_producto{
+  float: left;
+  text-align: center;
+  margin-left: 15px;
+}
+
+div.div_contenedor_producto div.div_datos_producto span{
+	text-align: center;
+	font-weight: bold;
+	color: black !important;
+}
+
+div.clear{
+  clear: both;
+}
+
+
+/**
+  Botones sociales
+**/
+
+.facebook {
+    float: right;
+}
+
+.twitter {
+    float: right;
+}
+
+
+.gplusone {
+    float: right;
+}
+
+.producto_social_buttons_containers {
+    width: 80%;
+}
