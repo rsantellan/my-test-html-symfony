@@ -1,4 +1,8 @@
+<?php
+$profile = mdProfileHandler::getInstance($categoria)->loadProfile('categorias');
+?>
 <h3><?php echo $categoria->getName();?></h3>
+<p><?php echo $profile->getValue("descripcion"); ?></p>
 <div>
   <?php foreach($categoria->getSonsCategories() as $child): ?>
   <div class="category_index_small_info">

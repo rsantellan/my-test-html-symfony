@@ -11,8 +11,17 @@
 <!--left start-->
 <div class="left">
     
+   <?php
+    $profile = mdProfileHandler::getInstance($category)->loadProfile('categorias');
+    ?>
     
     <br class="spacer" />
+    
+    <h3><?php echo $category->getName();?></h3>
+    <p><?php echo $profile->getValue("descripcion"); ?></p>
+    <br class="spacer" />
+    
+    
     <ul class="product_list">
     
 	<?php foreach($pager->getResults() as $producto): ?>  
