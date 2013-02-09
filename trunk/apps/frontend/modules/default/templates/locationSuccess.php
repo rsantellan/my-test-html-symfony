@@ -1,6 +1,17 @@
 <?php
-slot('locations', ':D');
+	use_javascript('jquery-1.6.4.min.js', 'first');
+	use_javascript('fancybox/jquery.fancybox-1.3.1.pack.js','last');
+	use_stylesheet('../js/fancybox/jquery.fancybox-1.3.1.css');
+	use_javascript("location.js", 'last');
+    slot('locations', ':D');
 ?>
+<?php foreach($locales as $local): ?>
+    <div class="local_container">
+        <?php include_partial("localInfo", array("local" => $local, 'sf_cache_key' => "nat_local_".$local->getId()));?>
+    </div>
+<?php endforeach; ?>
+
+<div class="clear"></div>
 <div id="caja4">
   <p>&nbsp;</p>
   <h1>PLANTA INDUSTRIAL</h1>
