@@ -1,0 +1,1 @@
+Este es un test de symfony, para un catalogo.
